@@ -1,0 +1,25 @@
+{
+    "material_name": "HealthyHeart",
+    "shader_name": "SkinnedShader",
+    "reference_mat": 0,
+    "albedo_hash": 7573596275988583487,
+    "normal_hash": 0,
+    "baseColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "metallic": 0.035999998450279236,
+    "roughness": 0.4860000014305115,
+    "uv_scale": 1.0,
+    "tint": 1.0,
+    "override_shader": false,
+    "override_albedo": false,
+    "override_normal": false,
+    "override_baseColor": false,
+    "override_metallic": false,
+    "override_roughness": false,
+    "override_uv_scale": false,
+    "override_tint": false
+}

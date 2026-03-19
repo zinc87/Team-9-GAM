@@ -1,0 +1,63 @@
+{
+    "Object List": [
+        {
+            "Object Name": "GameObject 1",
+            "ID": "fc5de8c3-d094-4e45-adb9-688207d3b219",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 2",
+            "ID": "15824c57-7db7-4052-8395-b6aaa73e5de9",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::CameraComponent": {
+                    "Projection": 1,
+                    "Near Plane": 0.10000000149011612,
+                    "Far Plane": 50.0,
+                    "FOV": 60.0,
+                    "Vertical Size": 10.0,
+                    "Game Camera": true,
+                    "ComponentType": 3
+                }
+            }
+        }
+    ]
+}

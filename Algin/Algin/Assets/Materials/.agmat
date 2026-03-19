@@ -1,0 +1,23 @@
+{
+    "material_name": "",
+    "reference_mat": 0,
+    "albedo_hash": 10328179377942067631,
+    "normal_hash": 0,
+    "baseColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.0,
+    "uv_scale": 1.0,
+    "tint": 1.0,
+    "override_albedo": false,
+    "override_normal": false,
+    "override_baseColor": false,
+    "override_metallic": false,
+    "override_roughness": false,
+    "override_uv_scale": false,
+    "override_tint": false
+}

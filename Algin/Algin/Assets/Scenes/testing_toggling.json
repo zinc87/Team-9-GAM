@@ -1,0 +1,108 @@
+{
+    "Objects": [
+        {
+            "ID": "3c30f205-b10e-4d1d-ad21-2e401be3688e",
+            "Name": "Camera",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "16067956-2ca3-4da2-b57e-39c88df55eca",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 3,
+                    "ID": "5d9a2ed0-b487-41ad-8f72-5b44d8a6832f",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                },
+                {
+                    "Type": 6,
+                    "ID": "6310d57c-4087-41cb-aa20-c4fd359db4cd",
+                    "Audio Events": "<unsupported>"
+                }
+    ]
+}
+,
+        {
+            "ID": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Name": "HeldItemRoot",
+            "Parent": "3c30f205-b10e-4d1d-ad21-2e401be3688e",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "a9fcf550-8e77-46ae-97bb-93c4a224317b",
+                    "Position": [8.000000, -6.000000, -15.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [3.000000, 3.000000, 3.000000]
+                },
+                {
+                    "Type": 14,
+                    "ID": "29e8d1da-b9c3-4413-91a8-80fed728e41a",
+                    "Script Name": "PlayerController",
+                    "moveSpeed": 0.000000,
+                    "lookSpeed": 0.000000,
+                    "scanner": "<unsupported>",
+                    "syringe": "<unsupported>"
+                }
+    ]
+}
+,
+        {
+            "ID": "58e159fe-44ec-4b10-b01c-dcc7a9a21410",
+            "Name": "ScannerModel",
+            "Parent": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "23217f47-64b2-404b-9b48-c153b3f86ba7",
+                    "Position": [0.000000, 0.500000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [0.100000, 0.100000, 0.100000]
+                },
+                {
+                    "Type": 7,
+                    "ID": "5bf1a7b5-1840-4c19-9853-52a253fc5452",
+                    "Mesh Hash": 11438915792154986094,
+                    "Mesh": "Scanner.agstaticmesh",
+                    "SubMesh Hashes": [189263890681137292, 189264990192765503, 189266089704393714],
+                    "Material Hash List": [0, 0, 0],
+                    "Sub Meshes": [[0.100000, 0.100000, 0.100000], [0.100000, 0.100000, 0.100000], [0.100000, 0.100000, 0.100000]],
+                    "Shininess": 32.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "ba4afee0-a715-4b6e-b516-e63d2e0b504b",
+            "Name": "SyringeModel",
+            "Parent": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "65678609-304c-4205-b0c0-aa1ca8672f7c",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [0.000000, 0.000000, 0.000000]
+                },
+                {
+                    "Type": 7,
+                    "ID": "9260161b-2f90-4ee4-8126-1cbf4eff097c",
+                    "Mesh Hash": 1207627958303941992,
+                    "Mesh": "Vape.agstaticmesh",
+                    "SubMesh Hashes": [17892974359613518190, 17892975459125146401, 17892972160590261768],
+                    "Material Hash List": [0, 0, 0],
+                    "Sub Meshes": [[0.100000, 0.100000, 0.100000], [0.100000, 0.100000, 0.100000], [0.100000, 0.100000, 0.100000]],
+                    "Shininess": 32.000000
+                }
+    ]
+}
+,
+    ]
+}

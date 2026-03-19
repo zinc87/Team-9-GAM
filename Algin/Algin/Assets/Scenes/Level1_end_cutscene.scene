@@ -1,0 +1,106 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Video Player",
+            "ID": "867e58a3-552b-4d35-878c-35f41df7d953",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::VideoPlayerComponent": {
+                    "Video Path": "Assets/Videos/Level1Ending.mpg",
+                    "Play On Start": true,
+                    "Loop": false,
+                    "ComponentType": 23
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "44f61377-7009-470a-a00e-ab77f662f5b9",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "Skip Button UI",
+            "ID": "44f61377-7009-470a-a00e-ab77f662f5b9",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -1.9589999914169312,
+                        "y": 3.990999937057495,
+                        "z": -0.00006103614578023553
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [
+                        {
+                            "u": 0.03707801178097725,
+                            "v": 0.9546191692352295
+                        },
+                        {
+                            "u": 0.9474251866340637,
+                            "v": 0.9546191692352295
+                        },
+                        {
+                            "u": 0.9474251866340637,
+                            "v": 0.05700052157044411
+                        },
+                        {
+                            "u": 0.03707801178097725,
+                            "v": 0.05700052157044411
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -1.5759999752044678,
+                        "y": 0.796999990940094,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4000000059604645,
+                        "y": 0.4000000059604645
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        }
+    ]
+}

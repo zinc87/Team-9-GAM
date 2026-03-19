@@ -1,0 +1,60 @@
+{
+    "Objects": [
+        {
+            "ID": d0d50900-87ec-4a96-a30b-96bdeb229307,
+            "Name": "GameObject 2",
+            "Parent": 00f4c9eb-c73c-4178-a7a5-e0c7796b02d0,
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": 0d9c668f-0019-4885-a934-ae09f5fb8d66,
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                }
+            ]
+        },
+        {
+            "ID": 00f4c9eb-c73c-4178-a7a5-e0c7796b02d0,
+            "Name": "GameObject 1",
+            "Parent": 00000000-0000-0000-0000-000000000000,
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": 27f7d6e8-dd6f-4acd-a79e-494530bae81d,
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                }
+            ]
+        },
+        {
+            "ID": 22235e03-ef51-4e16-b6ea-f8565d7131f8,
+            "Name": "GameObject 3",
+            "Parent": 00000000-0000-0000-0000-000000000000,
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": cd9890af-1991-4a65-9e1b-9f0922b2235f,
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                }
+            ]
+        },
+        {
+            "ID": cdcef61e-4168-46de-9f56-0fb135deea85,
+            "Name": "GameObject 4",
+            "Parent": 22235e03-ef51-4e16-b6ea-f8565d7131f8,
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": 2d255618-9639-4001-b4d8-24954661f025,
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                }
+            ]
+        }
+    ]
+}

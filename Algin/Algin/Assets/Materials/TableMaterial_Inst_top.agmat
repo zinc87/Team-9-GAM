@@ -1,0 +1,23 @@
+{
+    "material_name": "TableMaterial_Inst_top",
+    "reference_mat": 16171054972452875615,
+    "albedo_hash": 3474182325449662042,
+    "normal_hash": 0,
+    "baseColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.0,
+    "uv_scale": 1.0,
+    "tint": 1.0,
+    "override_albedo": true,
+    "override_normal": false,
+    "override_baseColor": false,
+    "override_metallic": false,
+    "override_roughness": false,
+    "override_uv_scale": false,
+    "override_tint": false
+}

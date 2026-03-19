@@ -1,0 +1,55 @@
+// --- ENGINE API SUMMARY ---
+// Namespace: Script.Library
+// Standard Types: Vector3D (x,y,z), Vector2D (x,y), Object (Entity)
+
+// 1. BASE OBJECTS
+public class Object {
+    public string ObjectID;
+    // Check/Get Components
+    public bool hasComponent<T>(); 
+    public T getComponent<T>(); // Returns wrapper (e.g., TransformComponent)
+    public static string createGameObject();
+    public static string[] GetAllObjects();
+    public void setActive(bool active);
+}
+
+// 2. USER SCRIPTS (Inherit from this!)
+public abstract class IScript {
+    public Object Obj; // The entity this script is attached to
+    public abstract void Awake();
+    public abstract void Start();
+    public abstract void Update(double dt); // dt is Seconds
+    public abstract void Free();
+    
+    // Built-in Mouse Events (Engine calls these automatically)
+    public virtual void onHover();
+    public virtual void leftOnClick();
+}
+
+// 3. TRANSFORM (Position/Rotation)
+// Usage: var tr = Obj.getComponent<TransformComponent>().Transformation;
+public struct Transformation {
+    public Vector3D position;
+    public Vector3D Rotation; // Euler Angles in Degrees
+    public Vector3D Scale;
+    
+    // Helpers
+    public Vector3D getForward(); // Returns Normalized Vector
+}
+
+// 4. LOGGING
+Logger.log(Logger.LogLevel.Info, "Message");
+
+// 5. INPUT
+// Usage: using static Script.Library.Input;
+bool isDown = Input.isKeyPressed(KeyCode.kW);
+bool isClick = Input.isMouseClicked(Mouse.kMOUSE_BUTTON_LEFT);
+Input.getCurMosusePos(out Vector2D pos);
+
+// 6. SCENE MANAGEMENT
+Scene.loadScene("MainMenu.json");
+
+// 7. COMPONENT TYPES
+// Available: TransformComponent, CameraComponent, RigidBodyComponent, 
+// MeshRendererComponent, TextMeshUIComponent, AudioComponent.
+// Note: To move an object, get TransformComponent, modify struct, then SET it back.

@@ -1,0 +1,12 @@
+*ENSURE BIN EXPORT IS NOT EMPTY*
+
+1. Run installer_script.bat
+
+OR
+
+1. Open InstallScript (Inno Setup Script)
+2. Run (F9)
+3. After it compiles finish, Installer will be located at root directory (same as installer)
+
+Note:
+Installer will NOT pushed to git as file size is too large.

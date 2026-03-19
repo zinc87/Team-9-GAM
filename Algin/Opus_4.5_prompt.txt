@@ -1,0 +1,227 @@
+Role: Expert Gameplay Programmer
+Context: I am working on the illness data layer for my hospital game.
+
+Task 1: Complete IllnessDatabase.cs
+Please implement the Illness definitions for all 8 illnesses listed below.
+
+[CRITICAL FIXES]
+1. Blood Infection Typo: In the text below, "Item 3: Blood Infection" has a typo saying the diagnosis is "Pneumonia". You MUST name the illness "Blood Infection" in the code.
+2. Duplicate Item: "Item 7" is a duplicate of Item 6. Please ignore Item 7.
+3. Enum Expansion: The text below introduces new symptom states (e.g., Heart: "Looks infected"). Please UPDATE the Enums (HeartState, LungState, etc.) in IllnessDatabase.cs to include these new values.
+
+SYMPTOMS/ILLNESSES/SCANNING RESULTS
+1. Mild Flu
+Patient Symptoms (Dialogue)
+● “I’ve been coughing and sneezing.”
+● “It’s only been about 3 days.”
+● “I feel tired, but not too bad.”
+Scanning Results
+● Lungs: Mild irritation / damaged tissue
+● Heart: Normal
+● Digestive: Normal
+● Skin: Normal
+(Looks similar to pneumonia or vaping damage — intentional trap)
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Normal
+● Urine: Normal
+● Hair / Skin: Normal
+Diagnosis Logic
+● Respiratory symptoms present - Lungs: Mild irritation / damaged tissue
+● No infection markers
+● No immune response
+● Short sickness duration - “It’s only been about 3 days.”
+✅ Diagnosis: Mild Flu
+💊 Medication: Flu Medication
+❌Checkbox: Suspected Kpod Exposure
+2. Pneumonia
+Patient Symptoms (Dialogue)
+● “I’ve been coughing for over 2 weeks.”
+● “I feel feverish.”
+● “It hurts to breathe deeply.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: A little more red than usual
+● Digestive: Normal
+● Skin: Normal
+Sample Test Results
+● Blood:
+○ WBC: Elevated
+○ RBC: Normal
+○ Stress markers: Normal
+● Urine: Normal
+● Hair / Skin: Normal
+Diagnosis Logic
+● Long duration respiratory symptoms - “I’ve been coughing for over 2 weeks.”
+● Lung inflammation - Lungs: Looks infected
+● Infection confirmed by blood - Blood: Elevated WBC
+✅ Diagnosis: Pneumonia
+💊 Medication: Antibiotics
+❌Checkbox: Suspected Kpod Exposure
+3. Blood Infection
+Patient Symptoms (Dialogue)
+● “I feel extremely tired”
+● “I keep feeling dizzy”
+● “I have a high fever.”
+Scanning Results
+● Lungs: Normal
+● Heart: Looks infected
+● Digestive: Normal
+● Skin: Pale appearance
+Sample Test Results
+● Blood:
+○ WBC: Elevated
+○ RBC: Normal
+○ Stress markers: Normal
+● Urine: Infection markers present
+● Hair / Skin: Normal
+Diagnosis Logic
+● Heart: Looks infected
+● Skin: Pale appearance
+● Strong infection markers in urine test
+● Very high WBC
+✅ Diagnosis: Pneumonia
+💊 Medication: Antibiotics
+❌Checkbox: Suspected Kpod Exposure
+4. Severe Allergy
+Patient Symptoms (Dialogue)
+● “My skin is itchy.”
+● “My face feels swollen.”
+● “I’m having trouble breathing.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: Very red looking heart
+● Digestive: Normal
+● Skin: Rash / swelling (Red-ish skin color with spots)
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Normal
+● Urine: Normal
+● Hair / Skin: Immune reaction detected
+Diagnosis Logic
+● Immune response confirmed
+○ - “My skin is itchy.” , “My face feels swollen.”, Hair / Skin: Immune reaction
+detected
+● infection markers - Rash / swelling (Red-ish skin color with spots)
+✅ Diagnosis: Severe Allergy
+💊 Medication: Allergy Medication
+❌Checkbox: Suspected Kpod Exposure
+5. Synthetic Substance Toxicity (K-pods / Vaping)
+Patient Symptoms (Dialogue)
+● “I suddenly feel very dizzy.”
+● “My heart is racing.”
+● “I feel short of breath.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: Very red looking heart
+● Digestive: Normal
+● Skin: Mild irritation (Slightly red-ish skin color with spots)
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Elevated
+● Urine: Toxic markers present
+● Hair / Skin: Immune stress detected
+Diagnosis Logic
+● Lung damage without infection - Heart: Very red looking heart
+● Toxic markers present - Urine: Toxic markers present
+● Systemic stress - Hair / Skin: Immune stress detected
+✅ Diagnosis: Synthetic Substance Toxicity
+💊 Medication: Detox Treatment
+☑️Checkbox: Suspected Substance Exposure
+6. Drug-Induced Cardiac Stress (K-pods / Vaping)
+Patient Symptoms (Dialogue)
+● “My chest hurts.”
+● “My heart feels irregular.”
+● “I feel weak.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: Very red looking heart
+● Digestive: Normal
+● Skin: Normal
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Elevated
+● Urine: Toxic markers present
+● Hair / Skin: Normal
+Diagnosis Logic
+● Cardiac symptoms
+○ My chest hurts.”, Heart: Very red looking heart, Blood:Stress markers: Elevated
+● Toxic exposure confirmed - Urine: Toxic markers present
+● Infection ruled out - Digestive: Normal
+✅ Diagnosis: Drug-Induced Cardiac Stress
+💊 Medication: Cardiac Stabilizer + Detox
+☑️Checkbox: Suspected Substance Exposure
+7. Drug-Induced Cardiac Stress (K-pods / Vaping)
+Patient Symptoms (Dialogue)
+● “My chest hurts.”
+● “My heart feels irregular.”
+● “I feel weak.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: Very red looking heart
+● Digestive: Normal
+● Skin: Normal
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Elevated
+● Urine: Toxic markers present
+● Hair / Skin: Normal
+Diagnosis Logic
+● Cardiac symptoms
+○ My chest hurts.”, Heart: Very red looking heart, Blood:Stress markers: Elevated
+● Toxic exposure confirmed - Urine: Toxic markers present
+● Infection ruled out - Digestive: Normal
+✅ Diagnosis: Drug-Induced Cardiac Stress
+💊 Medication: Cardiac Stabilizer + Detox
+☑️Checkbox: Suspected Substance Exposure
+8. Toxic-Induced Psychosis / Neurological Distress
+(K-pods / Vaping)
+Patient Symptoms (Dialogue)
+● “I feel very confused.”
+● “I can’t focus properly.”
+● “I feel anxious and restless.”
+● “I feel disconnected from my surroundings.”
+Scanning Results
+● Lungs: Looks infected
+● Heart: Very red looking heart
+● Digestive: Normal
+● Skin: mild irritation (mildy red-ish skin)
+Sample Test Results
+● Blood:
+○ WBC: Normal
+○ RBC: Normal
+○ Stress markers: Elevated
+● Urine: Toxic markers present
+● Hair / Skin: Normal
+Diagnosis Logic
+● Toxic exposure confirmed via urine - Urine: Toxic markers present
+● Neurological symptoms dominate - “I feel disconnected from my surroundings.”
+● Lung damage supports inhaled substance exposure - Lungs: Looks infected
+✅ Diagnosis: Toxic-Induced Neurological Distress
+💊 Medication: Sedative / Stabilizing Treatment
+☑️Checkbox: Suspected Substance Exposure
+
+Task 2: Create PatientController.cs (Data Only)
+Create a script that acts as a container for patient data.
+Requirements:
+1. It must hold the PatientData struct (from IllnessDatabase).
+2. It needs a public function Initialize(PatientData data) to set this data when spawned.
+3. Constraint: Do NOT implement movement or state machines yet. Just hold the data.
+
+Task 3: Create PatientSpawner.cs
+Create a simple spawner system.
+Requirements:
+1. Spawn a new object every 10 seconds using Object.createGameObject().
+2. Add the PatientController script to the new object.
+3. Random Generation: Generate a random PatientData (Random Name, Age, Gender) and assign it a Random Illness from the IllnessDatabase.
+4. Initialize the controller with this data.

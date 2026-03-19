@@ -1,0 +1,44 @@
+{
+    "Objects": [
+        {
+            "ID": "fc5de8c3-d094-4e45-adb9-688207d3b219",
+            "Name": "GameObject 1",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "ac0f6bc8-65ad-4491-a87a-2a43e5fcf4f7",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                }
+    ]
+}
+,
+        {
+            "ID": "15824c57-7db7-4052-8395-b6aaa73e5de9",
+            "Name": "GameObject 2",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "f886fcb2-f166-4090-a7e1-73ffa9bd02f0",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 3,
+                    "ID": "e0c26206-5530-4087-906e-8cf8d92555f4",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                }
+    ]
+}
+,
+    ]
+}

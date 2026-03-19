@@ -1,0 +1,81 @@
+## Ignore Visual Studio 2022 files ##
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build Results ##
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+bin/
+bin-int/
+
+## NuGet Packages ##
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## Windows Image Cache ##
+Thumbs.db
+ehthumbs.db
+
+## OS generated files ##
+.DS_Store
+*.swp
+*.bak
+*.tmp
+*.tmp/*
+~$*
+
+## Rider IDE files (optional if using Rider) ##
+.idea/
+
+## Test Results ##
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Publish files ##
+*.Publish.xml
+*.publishsettings
+
+## Others ##
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.vspscc
+*.vssscc
+*.dbmdl
+
+## User-specific files ##
+*.tscache
+*.scc
+*.cache
+*.dbmdl
+*.jfm
+
+
+# C/C++ artifacts
+*.o
+*.obj
+*.ilk
+*.a
+*.so
+*.dylib
+*.exe
+# Precompiled headers / modules
+*.pch
+*.gch
+*.pchi
+*.ipch
+Algin/extern/AGEngine/Algin.dll
+Algin/extern/AGEngine/Algin.lib
+Algin/Algin/imgui.ini
+Algin/extern/AGEngine/Algin.dll
+Algin/Algin/EditorAssets/NodeList.json
+
+!REDIST/VC_redist.x64.exe
+!INSTALLERFILES/Inno Setup 6/ISCC.exe

@@ -1,0 +1,71 @@
+{
+    "Objects": [
+        {
+            "ID": "caf7230f-3746-4166-9c89-738a041a57cd",
+            "Name": "Text UI",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "8c19b336-360a-4a28-81a0-818d93819706",
+                    "Position": [-1.959, 3.991, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 2,
+                    "ID": "4e92b6cc-8b4f-43cf-b3ac-5ce7183384ae",
+                    "Position": [-1.576, 0.797, 0],
+                    "Scale": [0.4, 0.4],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "7c28da7d-8888-45a7-ab00-475356820584",
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [[0.050663, 0.952955], [0.957780, 0.952955], [0.957780, 0.041013], [0.050663, 0.041013]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "642e1475-3668-4672-b93c-9642b7a41f96",
+            "Name": "Video Player",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "2cdb025e-3311-4676-ba50-8475f03d4126",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 23,
+                    "ID": "2abfe0e2-d424-4016-9c53-277d450ad451",
+                    "Video Path": "Assets/Videos/EndingCutsceneWIP.mpg",
+                    "Play On Start": true,
+                    "Loop": false
+                },
+                {
+                    "Type": 14,
+                    "ID": "ee58bc77-4567-4e09-8c5a-5749bbd09c32",
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "<unsupported>"
+                },
+                {
+                    "Type": 3,
+                    "ID": "2bf223dd-9eb6-4c58-8128-1a89f40b1e7e",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                }
+    ]
+}
+,
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "Objects": [
+        {
+            "ID": "970dcd7c-376f-41e2-a82a-11280ad7b175",
+            "Name": "Video Player",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "9f250b86-3ab5-4444-962b-85b3409c90e2",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 23,
+                    "ID": "d97dab8e-2a73-461e-ac1f-8f023dd4503e",
+                    "Video Path": "Assets/Videos/WIP Cutscene.mpg",
+                    "Play On Start": true,
+                    "Loop": false
+                },
+                {
+                    "Type": 14,
+                    "ID": "41a7aa20-2dec-4484-b858-ff47f519111a",
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "<unsupported>"
+                },
+                {
+                    "Type": 3,
+                    "ID": "1d4f1c21-73f4-41eb-bb3e-6bf1ae641cd1",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                }
+    ]
+}
+,
+        {
+            "ID": "5c0d6497-963b-4221-a09b-235b7c046cc4",
+            "Name": "Text UI",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "2675b52c-1223-493b-9372-691bb2ba66f8",
+                    "Position": [-1.958579, 3.990993, 0.000061],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "0f0c8b2e-bef6-4be5-8ea7-35ef498f3657",
+                    "Position": [-1.576138, 0.797488, 0.000000],
+                    "Scale": [0.400000, 0.400000],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "30566834-cd29-4e87-94e4-01e3a759f75c",
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [[0.047273, 0.960000], [0.950909, 0.960000], [0.950909, 0.058182], [0.047273, 0.058182]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+    ]
+}
