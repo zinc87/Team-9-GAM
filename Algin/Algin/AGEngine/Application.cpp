@@ -141,6 +141,7 @@ namespace AG
 		AG::System::SerializationSystem::GetInstance().loadSceneJson(m_openingScene);
 		SCENESTATEMANAGER.SetSceneState(System::SceneManager::PLAYING);
 		SCENESTATEMANAGER.RunOnStart();
+		AGWINDOW.toggleFullScreen();
 #endif 
 	}
 
