@@ -279,6 +279,11 @@ void AG::PostProcesser::Apply()
                 glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
             }
         }
+        else
+        {
+            // Still send gamma to passthrough shader so cutscenes respect gamma
+            glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
+        }
 
         RenderFullscreenQuad();
     }
@@ -334,6 +339,11 @@ void AG::PostProcesser::ApplyOverlay(int vpX, int vpY, int vpW, int vpH)
             glUniform1f(glGetUniformLocation(finalShader, "u_Exposure"), 1.0f);
             glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
         }
+    }
+    else
+    {
+        // Still send gamma to passthrough shader so cutscenes respect gamma
+        glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
     }
 
     glDisable(GL_DEPTH_TEST);

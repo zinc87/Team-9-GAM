@@ -13,8 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Silent Haze", "Silent Haze\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCore", "ScriptCore\ScriptCore.csproj", "{2859E943-30F8-456E-B820-B11FF0964496}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssetCompiler", "AssetCompiler\AssetCompiler.vcxproj", "{BC5B174D-683B-44D8-985A-9A16CD23ADDA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,18 +59,6 @@ Global
 		{2859E943-30F8-456E-B820-B11FF0964496}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2859E943-30F8-456E-B820-B11FF0964496}.Release|x64.ActiveCfg = Release|Any CPU
 		{2859E943-30F8-456E-B820-B11FF0964496}.Release|x64.Build.0 = Release|Any CPU
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Debug|Any CPU.Build.0 = Debug|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Debug|x64.ActiveCfg = Debug|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Debug|x64.Build.0 = Debug|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Export|Any CPU.ActiveCfg = Export|Win32
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Export|Any CPU.Build.0 = Export|Win32
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Export|x64.ActiveCfg = Export|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Export|x64.Build.0 = Export|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Release|Any CPU.ActiveCfg = Release|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Release|Any CPU.Build.0 = Release|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Release|x64.ActiveCfg = Release|x64
-		{BC5B174D-683B-44D8-985A-9A16CD23ADDA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
