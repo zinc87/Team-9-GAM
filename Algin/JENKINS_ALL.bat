@@ -21,7 +21,7 @@ if not defined MSBUILD_PATH (
 
 echo [INFO] Using MSBuild: "%MSBUILD_PATH%"
 
-for %%C in (Debug Release Export) do (
+for %%C in (Release Export) do (
     echo [INFO] Building configuration: %%C...
     "%MSBUILD_PATH%" Algin.sln /p:Configuration=%%C /p:Platform="x64" /m /t:Rebuild
     
