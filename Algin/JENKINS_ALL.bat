@@ -26,9 +26,13 @@ for %%C in (Debug Release Export) do (
     "%MSBUILD_PATH%" Algin.sln /p:Configuration=%%C /p:Platform="x64" /m /t:Rebuild
     
     if !ERRORLEVEL! NEQ 0 (
-        echo [ERROR] Build failed for %%C with code !ERRORLEVEL!
+        echo [ERROR] Build FAILED for %%C with code !ERRORLEVEL!
         exit /b !ERRORLEVEL!
     )
+    else 
+    {
+        echo [INFO] Build SUCCESSFULLY for %%C.
+    }
 )
 
 echo [SUCCESS] All builds completed successfully.
