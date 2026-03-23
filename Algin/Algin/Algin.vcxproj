@@ -483,9 +483,8 @@ xcopy /y "$(SolutionDir)Algin\imgui.ini" "$(SolutionDir)bin\$(Platform)\$(Config
 xcopy /y "$(SolutionDir)Algin\config.txt" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 
 if not exist "$(SolutionDir)extern\AGEngine\$(Configuration)\" mkdir "$(SolutionDir)extern\AGEngine\$(Configuration)\"
-copy /y "$(TargetPath)" "$(SolutionDir)extern\AGEngine\$(Configuration)\"
-copy /y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)extern\AGEngine\$(Configuration)\"
-xcopy /y "$(SolutionDir)extern\AGEngine\$(Configuration)\Algin.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)\"
+copy /y "$(TargetPath)" "$(SolutionDir)extern\AGEngine\$(Configuration)"
+copy /y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)extern\AGEngine\$(Configuration)"
 
 xcopy /y "$(SolutionDir)extern\assimp\lib\Debug\assimp-vc143-mtd.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 xcopy /y /d "$(SolutionDir)extern\mono\lib\mono-2.0-sgen.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
@@ -531,6 +530,7 @@ if not exist "$(SolutionDir)extern\AGEngine\$(Configuration)\" mkdir "$(Solution
 copy /y "$(TargetPath)" "$(SolutionDir)extern\AGEngine\$(Configuration)"
 copy /y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)extern\AGEngine\$(Configuration)"
 xcopy /y "$(SolutionDir)extern\AGEngine\$(Configuration)\Algin.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
+xcopy /y "$(SolutionDir)extern\AGEngine\$(Configuration)\Algin.lib" "$(SolutionDir)bin\$(Platform)\$(Configuration)\"
 xcopy /y "$(SolutionDir)extern\assimp\lib\$(Configuration)\assimp-vc143-mt.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 xcopy /y /d "$(SolutionDir)extern\mono\lib\mono-2.0-sgen.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 xcopy /y  "$(SolutionDir)extern\fmod_api\core\lib\x64\fmod.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"

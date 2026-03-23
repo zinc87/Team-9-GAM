@@ -223,11 +223,6 @@
   <ItemGroup>
     <ClCompile Include="Silent Haze.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Algin\Algin.vcxproj">
-      <Project>{ca90b41f-e42b-4b82-b5fd-1063eed4c4c6}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
