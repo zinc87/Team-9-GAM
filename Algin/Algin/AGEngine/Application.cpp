@@ -329,10 +329,12 @@ namespace AG
 				// apply post processing
 				AG::PostProcesser::GetInstance().EndScene();
 				AG::PostProcesser::GetInstance().Apply();
+				AG::PostProcesser::GetInstance().RenderEffectedScene();
 				// render game scene UI
 				glDisable(GL_DEPTH_TEST);
 				BatchRenderer::GetInstance().Render();
 				BatchRenderer::GetInstance().Flush();
+				AG::PostProcesser::GetInstance().FinalPass();
 				glEnable(GL_DEPTH_TEST);
 				RenderOverlayCamera();
 #ifndef EXPORT

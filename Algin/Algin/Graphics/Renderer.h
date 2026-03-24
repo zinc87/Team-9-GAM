@@ -319,8 +319,9 @@ namespace AG
 		void BeginScene();
 		void EndScene();
 		void Apply();
+		void RenderEffectedScene();
+		void FinalPass();
 		void ApplyOverlay(int vpX, int vpY, int vpW, int vpH);
-
 		void AddEffect(const std::string& name, GLuint shader);
 		void QueueEffect(const std::string& name);
 		GLuint LoadShader(const std::string& vertexPath, const std::string& fragmentPath);
@@ -350,7 +351,7 @@ namespace AG
 		// Ping-pong buffers
 		GLuint pingFBO = 0, pongFBO = 0;
 		GLuint pingTex = 0, pongTex = 0;
-
+		GLuint m_currentResultTex = 0; // holds the result after all filters, for final pass to tonemap
 		float gammaScaling = 2.2f;	// default gamma scaling
 		bool m_enableTonemap = true;
 		GLuint finalPassthrough = 0;

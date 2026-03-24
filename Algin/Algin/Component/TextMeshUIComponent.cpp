@@ -31,7 +31,7 @@ void AG::Component::TextMeshUIComponent::LateUpdate()
 				// text vs. image draw order in the batch renderer.
 				auto textTransform = trf->GetTransform();
 				textTransform.position.z += 0.001f;
-				BatchRenderer::GetInstance().RenderText(text_content, font_color, textTransform, font_hash, wrap,wrap_limit, centered, font_size, line_spacing, letter_spacing);
+				BatchRenderer::GetInstance().RenderText(text_content, font_color, textTransform, font_hash, wrap,wrap_limit, left,centered,right, font_size, line_spacing, letter_spacing);
 			}
 
 		}
@@ -92,8 +92,26 @@ void AG::Component::TextMeshUIComponent::Inspector()
 	ImGui::Text("Wrap Limit"); ImGui::SameLine(); ImGui::SetCursorPosX(x_width * 0.3f);
 	ImGui::DragFloat("##wrap_limit", &wrap_limit, 0.01f, 0.02f, 2.f);
 
-	ImGui::Text("Centered"); ImGui::SameLine(); ImGui::SetCursorPosX(x_width * 0.3f);
-	ImGui::Checkbox("##centered", &centered);
+	ImGui::Columns(3, nullptr, false);
+
+	// Column 1
+	ImGui::Text("Left");
+	ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (ImGui::GetColumnWidth() - ImGui::GetFrameHeight()) * 0.5f);
+	ImGui::Checkbox("##align_left", &left);
+	ImGui::NextColumn();
+
+	// Column 2
+	ImGui::Text("Center");
+	ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (ImGui::GetColumnWidth() - ImGui::GetFrameHeight()) * 0.5f);
+	ImGui::Checkbox("##align_center", &centered);
+	ImGui::NextColumn();
+
+	// Column 3
+	ImGui::Text("Right");
+	ImGui::SetCursorPosX(ImGui::GetCursorPosX() + (ImGui::GetColumnWidth() - ImGui::GetFrameHeight()) * 0.5f);
+	ImGui::Checkbox("##align_right", &right);
+
+	ImGui::Columns(1);
 
 	ImGui::ColorPicker4("##font_color", font_color.rgba_f);
 
@@ -114,6 +132,8 @@ void AG::Component::TextMeshUIComponent::AssignFrom(const std::shared_ptr<ICompo
 	BASIC_ASSIGN(wrap_limit);       
 	BASIC_ASSIGN(wrap);
 	BASIC_ASSIGN(centered);
+	BASIC_ASSIGN(left);
+	BASIC_ASSIGN(right);
 	BASIC_ASSIGN(text_content);
 		)
 }

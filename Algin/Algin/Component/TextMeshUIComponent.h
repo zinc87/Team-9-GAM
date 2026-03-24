@@ -62,14 +62,14 @@ namespace AG {
 				return {
 					REFLECT_FIELD(font_color, Color, "Font Color"),
 					REFLECT_FIELD(font_hash, size_t, "Font Hash"),
-
 					REFLECT_FIELD_RANGE(font_size, float, "Font Size", "", 0.05f, 128.0f, 0.05f),
 					REFLECT_FIELD_RANGE(line_spacing, float, "Line Spacing", "", 0.0f, 10.0f, 0.01f),
 					REFLECT_FIELD_RANGE(letter_spacing, float, "Word Spacing", "", 0.0f, 1.0f, 0.01f),
 					REFLECT_FIELD_RANGE(wrap_limit, float, "Wrap Limit", "", 0.0f, 2.f, 0.01f),
-
 					REFLECT_FIELD(wrap, bool, "Wrap Text"),
 					REFLECT_FIELD(centered, bool, "Centered"),
+					REFLECT_FIELD(right, bool, "RightAlign"),
+					REFLECT_FIELD(left, bool, "LeftAlign"),
 
 					REFLECT_FIELD(text_content, std::string, "Text Content")
 				};
@@ -91,6 +91,8 @@ namespace AG {
 			float wrap_limit = 1.f;
 			bool wrap = true;
 			bool centered = true;
+			bool right = false;
+			bool left= false;
 		};
 	}
 }

@@ -272,7 +272,8 @@ void BatchRenderer::DrawQuad(Color clr, Transform2D& trf, size_t tex_hash_id, Te
 }
 
 void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
-	size_t font_hash_id, bool wrapped, float wrap_limit, bool centered,
+	size_t font_hash_id, bool wrapped, float wrap_limit,
+	bool left_aligned, bool centered, bool right_aligned,
 	float font_size, float line_spacing, float letter_spacing)
 {
 	// --- 1. Get Asset ---
@@ -290,25 +291,13 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 	std::shared_ptr<FontAsset> font_shared = std::dynamic_pointer_cast<FontAsset>(asset_shared);
 	if (!font_shared) return;
 
-	// Diagnostic: log data for summary screen text
-	if (content.find("Level") != std::string::npos ||
-		content.find("Diagnosed") != std::string::npos ||
-		content.find("Continue") != std::string::npos)
-	{
-		// AG_CORE_INFO("[RenderText] content='{}' color=({},{},{},{}) size={} z={} glyphs={}",
-		// 	content, clr.rgba.r, clr.rgba.g, clr.rgba.b, clr.rgba.a,
-		// 	font_size, trf.position.z, font_shared->m_glyphs_data.size());
-	}
-
 	// --- 2. Setup Metrics ---
 	float scale = (font_size / 128.0f);
 	float lineHeight = line_spacing * scale;
 	float extraLetterSpacing = letter_spacing * scale;
 	float textRotation = trf.rotation;
 
-	// Helper lambda to get a robust advance value even if data is broken (0)
 	auto GetEffectiveAdvance = [&](const Glyphs& g) {
-		// If advanceX is 0, fallback to width + small padding (1px in font space)
 		float adv = g.advanceX > 0.0f ? g.advanceX : (g.width + 1.0f);
 		return adv * scale;
 		};
@@ -338,12 +327,10 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 			}
 		}
 
-		// Calculate space width
 		float spaceWidth = 0.0f;
 		if (font_shared->m_glyphs_data.count(' '))
 			spaceWidth = GetEffectiveAdvance(font_shared->m_glyphs_data.at(' '));
 
-		// Check wrapping
 		bool shouldWrap = (wrapped && wrap_limit > 0.0f) &&
 			(currentLineWidth + wordWidth + (currentLineWidth > 0 ? spaceWidth : 0.0f) > wrap_limit);
 
@@ -374,10 +361,21 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 		const std::string& line = lineData.first;
 		float lineWidth = lineData.second;
 
-		// Centering logic
-		float cursorX = centered ? -lineWidth * 0.5f : 0.0f;
+		// --- Alignment Logic ---
+		float cursorX = 0.0f;
+		if (right_aligned)
+		{
+			cursorX = -lineWidth;
+		}
+		else if (centered)
+		{
+			cursorX = -lineWidth * 0.5f;
+		}
+		else // default or left_aligned
+		{
+			cursorX = 0.0f;
+		}
 
-		// Pre-calculate rotation trig
 		float rad = glm::radians(textRotation);
 		float cos_theta = glm::cos(rad);
 		float sin_theta = glm::sin(rad);
@@ -389,22 +387,15 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 
 			const Glyphs& g = it->second;
 
-			// Metric Calculations
 			float w = g.width * scale;
 			float h = g.height * scale;
 
-			// 1. Calculate Top-Left corner relative to baseline
-			// bearingX is distance from cursor to Left edge
-			// bearingY is distance from baseline to Top edge
 			float x_topLeft = cursorX + g.bearingX * scale;
 			float y_topLeft = -cursorY + g.bearingY * scale;
 
-			// 2. Convert Top-Left to Center (Fixes the "wobbly" text)
-			// Assuming DrawQuad draws from the center of the transform
 			float x_center = x_topLeft + w * 0.5f;
 			float y_center = y_topLeft - h * 0.5f;
 
-			// 3. Apply Rotation to the Center position
 			glm::vec2 rotated_pos;
 			if (textRotation != 0.0f)
 			{
@@ -417,7 +408,6 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 				rotated_pos.y = y_center;
 			}
 
-			// --- Submit Quad ---
 			Transform2D charTrf = trf;
 			charTrf.position.x += rotated_pos.x;
 			charTrf.position.y += rotated_pos.y;
@@ -434,12 +424,10 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 
 			DrawQuad(clr, charTrf, font_hash_id, tex);
 
-			// --- Advance Cursor ---
 			cursorX += GetEffectiveAdvance(g);
 			cursorX += extraLetterSpacing;
 		}
 
-		// Move baseline down for next line
 		cursorY += lineHeight;
 	}
 }

@@ -98,7 +98,10 @@ public:
 
 	void DrawQuad(Color clr, Transform2D &trf, size_t tex_hash_id, TextureCoordinate texCoord = TextureCoordinate());
 
-	void RenderText(std::string content, Color clr, Transform2D& trf, size_t font_hash_id, bool wrapped, float wrap_limit, bool centered, float font_size, float line_spacing, float letter_spacing);
+	void RenderText(std::string content, Color clr, Transform2D& trf,
+		size_t font_hash_id, bool wrapped, float wrap_limit,
+		bool left_aligned, bool centered, bool right_aligned,
+		float font_size, float line_spacing, float letter_spacing);
 
 private:
 	BatchVertex* quadBuffer=nullptr;

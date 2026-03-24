@@ -90,7 +90,12 @@ namespace AG {
 			ImGui::SetNextWindowSize(ImVec2(m_size.first, m_size.second), ImGuiCond_FirstUseEver);
 
 			ImGui::Begin(m_name.c_str());
-
+#pragma region GammaController
+			//// gamma controller tester
+			//float gamma = PostProcesser::GetInstance().GetGammaScaling();
+			//ImGui::SliderFloat("Gamma", &gamma, 0.1f, 2.2f);
+			//PostProcesser::GetInstance().SetGammaScaling(gamma);
+#pragma endregion
 			static char searchBuffer[128] = "";
             static bool showAddPopup = false;
 

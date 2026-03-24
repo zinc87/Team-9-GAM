@@ -214,17 +214,14 @@ void AG::PostProcesser::EndScene()
 void AG::PostProcesser::Apply()
 {
     auto [width, height] = AGWindow::GetInstance().getWindowSize();
-
     bool usePing = true;
     GLuint inputTex = hdrColorTex;
 
+    // --- Process Filters Only ---
     while (!process_queue.empty()) {
         std::string effect = process_queue.front();
         process_queue.pop();
-        if (PP_MAP.find(effect) == PP_MAP.end()) {
-            AG_CORE_WARN("Post-process effect not found: {}", effect);
-            continue;
-        }
+        if (PP_MAP.find(effect) == PP_MAP.end()) continue;
 
         GLuint shader = PP_MAP[effect];
         glUseProgram(shader);
@@ -239,15 +236,49 @@ void AG::PostProcesser::Apply()
         glBindTextureUnit(0, inputTex);
         glUniform1i(glGetUniformLocation(shader, "u_ScreenTex"), 0);
 
-        RenderFullscreenQuad(); 
+        RenderFullscreenQuad();
 
         inputTex = targetTex;
         usePing = !usePing;
     }
-    // --- Final pass: render to backbuffer ---
+
+    // Store which texture holds the scene (could be hdrColorTex if no filters ran)
+    m_currentResultTex = inputTex;
+}
+
+void AG::PostProcesser::RenderEffectedScene()
+{
+    auto [width, height] = AGWindow::GetInstance().getWindowSize();
+
+    // Bind the main HDR FBO to prepare it for UI
+    glBindFramebuffer(GL_FRAMEBUFFER, hdrFBO);
+    glViewport(0, 0, width, height);
+    // We DON'T clear here because we are about to draw the scene result over it
+
+    // Use the passthrough shader to draw the scene result into the HDR FBO
+    if (finalPassthrough != 0) {
+        glUseProgram(finalPassthrough);
+        glBindTextureUnit(0, m_currentResultTex);
+        glUniform1i(glGetUniformLocation(finalPassthrough, "u_ScreenTex"), 0);
+        glUniform1f(glGetUniformLocation(finalPassthrough, "u_Gamma"), 1.0f); // Keep linear
+
+        RenderFullscreenQuad();
+    }
+
+    // Now that the scene is in hdrFBO, set it as the result for FinalPass
+    m_currentResultTex = hdrColorTex;
+
+    // The hdrFBO remains bound so your Batch Renderer can start drawing UI immediately
+}
+
+void AG::PostProcesser::FinalPass()
+{
+    auto [width, height] = AGWindow::GetInstance().getWindowSize();
+
+    // Render the combined (Scene + UI) HDR buffer to the backbuffer
     glBindFramebuffer(GL_FRAMEBUFFER, 0);
     glViewport(0, 0, width, height);
-    glClear(GL_COLOR_BUFFER_BIT); 
+    glClear(GL_COLOR_BUFFER_BIT);
 
     auto finalIt = PP_MAP.find("final");
     if (finalIt != PP_MAP.end()) {
@@ -255,36 +286,20 @@ void AG::PostProcesser::Apply()
         if (!m_enableTonemap && finalPassthrough != 0)
             finalShader = finalPassthrough;
 
-        bool usingTonemap = (finalShader == finalIt->second);
-
         glUseProgram(finalShader);
-        glBindTextureUnit(0, inputTex);
+        glBindTextureUnit(0, m_currentResultTex);
         glUniform1i(glGetUniformLocation(finalShader, "u_ScreenTex"), 0);
 
-        if (usingTonemap)
-        {
-            GLint enabledLoc = glGetUniformLocation(finalShader, "enabled");
-            if (enabledLoc != -1)
-                glUniform1i(enabledLoc, m_enableTonemap ? 1 : 0);
+        glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
 
-            if (CameraManager::GetInstance().getCurrentCamera().lock())
-            {
-                glUniform1f(glGetUniformLocation(finalShader, "u_Exposure"),
-                    CameraManager::GetInstance().getCurrentCamera().lock()->getExposure());
-                glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
-            }
-            else
-            {
-                glUniform1f(glGetUniformLocation(finalShader, "u_Exposure"), 1.0f);
-                glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
-            }
-        }
-        else
-        {
-            // Still send gamma to passthrough shader so cutscenes respect gamma
-            glUniform1f(glGetUniformLocation(finalShader, "u_Gamma"), gammaScaling);
-        }
+        if (finalShader == finalIt->second) { // If using tonemap shader
+            float exposure = 1.0f;
+            if (auto cam = CameraManager::GetInstance().getCurrentCamera().lock())
+                exposure = cam->getExposure();
 
+            glUniform1f(glGetUniformLocation(finalShader, "u_Exposure"), exposure);
+            glUniform1i(glGetUniformLocation(finalShader, "enabled"), m_enableTonemap ? 1 : 0);
+        }
         RenderFullscreenQuad();
     }
 }
