@@ -362,6 +362,7 @@
     <None Include="Assets\Script\SampleCollected.cs" />
     <None Include="Assets\Script\SampleScript.cs" />
     <None Include="Assets\Script\SampleScript2.cs" />
+    <None Include="Assets\Script\SceneFader.cs" />
     <None Include="Assets\Script\SceneTest.cs" />
     <None Include="Assets\Script\ShaderChanger.cs" />
     <None Include="Assets\Script\StudentScript.cs" />

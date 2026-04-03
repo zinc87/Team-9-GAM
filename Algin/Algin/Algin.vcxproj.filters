@@ -333,5 +333,6 @@
     <None Include="Assets\Script\PenaltyBarMgr.cs" />
     <None Include="Assets\Script\LightingManager.cs" />
     <None Include="Assets\Script\ConfettiSpawner.cs" />
+    <None Include="Assets\Script\SceneFader.cs" />
   </ItemGroup>
 </Project>
