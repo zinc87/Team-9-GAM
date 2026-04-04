@@ -45,6 +45,14 @@ namespace AG {
 			ImGui::CreateContext();
 			ImNodes::CreateContext();
 			ImGuiIO& io = ImGui::GetIO(); (void)io;
+			if (std::filesystem::exists("imgui.ini")) 
+			{
+				ImGui::LoadIniSettingsFromDisk("imgui.ini");
+			}
+			else
+			{
+				ImGui::LoadIniSettingsFromDisk("imgui_template.ini");
+			}
 
 			// When we get font
 			io.Fonts->AddFontFromFileTTF("Assets/Font/Exo2-Regular.ttf", 15.0f); // Adjust the font size as needed
@@ -62,7 +70,7 @@ namespace AG {
 
 		void ImGuiSystem::Free() {
 
-			ImGui::SaveIniSettingsToDisk("../../../Algin/imgui.ini");
+			ImGui::SaveIniSettingsToDisk("imgui.ini");
 			ImGui_ImplOpenGL3_Shutdown();
 			ImGui_ImplGlfw_Shutdown();
 			ImNodes::DestroyContext();

@@ -480,7 +480,7 @@
       <Command>xcopy /y  "$(SolutionDir)Algin\glew32.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 if not exist "$(SolutionDir)bin\$(Platform)\$(Configuration)\Assets" mklink /J "$(SolutionDir)bin\$(Platform)\$(Configuration)\Assets" "$(SolutionDir)Algin\Assets"
 if not exist "$(SolutionDir)bin\$(Platform)\$(Configuration)\EditorAssets" mklink /J "$(SolutionDir)bin\$(Platform)\$(Configuration)\EditorAssets" "$(SolutionDir)Algin\EditorAssets"
-xcopy /y "$(SolutionDir)Algin\imgui.ini" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
+xcopy /y "$(SolutionDir)Algin\imgui_template.ini" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 xcopy /y "$(SolutionDir)Algin\config.txt" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 
 if not exist "$(SolutionDir)extern\AGEngine\$(Configuration)\" mkdir "$(SolutionDir)extern\AGEngine\$(Configuration)\"
@@ -524,7 +524,7 @@ xcopy /Y /E /I "$(SolutionDir)extern\mono\4.5" "$(SolutionDir)bin\$(Platform)\$(
       <Command>xcopy /y  "$(SolutionDir)Algin\glew32.dll" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 if not exist "$(SolutionDir)bin\$(Platform)\$(Configuration)\Assets" mklink /J "$(SolutionDir)bin\$(Platform)\$(Configuration)\Assets" "$(SolutionDir)Algin\Assets"
 if not exist "$(SolutionDir)bin\$(Platform)\$(Configuration)\EditorAssets" mklink /J "$(SolutionDir)bin\$(Platform)\$(Configuration)\EditorAssets" "$(SolutionDir)Algin\EditorAssets"
-xcopy /y "$(SolutionDir)Algin\imgui.ini" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
+xcopy /y "$(SolutionDir)Algin\imgui_template.ini" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 xcopy /y "$(SolutionDir)Algin\config.txt" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 
 if not exist "$(SolutionDir)extern\AGEngine\$(Configuration)\" mkdir "$(SolutionDir)extern\AGEngine\$(Configuration)\"
@@ -575,8 +575,8 @@ xcopy /Y /E /I "$(SolutionDir)extern\mono\4.5" "$(SolutionDir)bin\$(Platform)\$(
       <Command>xcopy /y  "$(SolutionDir)Algin\glew32.dll" "$(SolutionDir)bin\$(Platform)\Export"
 if not exist "$(SolutionDir)bin\$(Platform)\Export\Assets" mklink /J "$(SolutionDir)bin\$(Platform)\Export\Assets" "$(SolutionDir)Algin\Assets"
 if not exist "$(SolutionDir)bin\$(Platform)\Export\EditorAssets" mklink /J "$(SolutionDir)bin\$(Platform)\Export\EditorAssets" "$(SolutionDir)Algin\EditorAssets"
-xcopy /y "$(SolutionDir)Algin\imgui.ini" "$(SolutionDir)bin\$(Platform)\Export"
 xcopy /y "$(SolutionDir)Algin\config.txt" "$(SolutionDir)bin\$(Platform)\Export"
+xcopy /y "$(SolutionDir)Algin\GameConfig.json" "$(SolutionDir)bin\$(Platform)\$(Configuration)"
 
 if not exist "$(SolutionDir)extern\AGEngine\$(Configuration)\" mkdir "$(SolutionDir)extern\AGEngine\$(Configuration)\"
 copy /y "$(TargetPath)" "$(SolutionDir)extern\AGEngine\$(Configuration)"

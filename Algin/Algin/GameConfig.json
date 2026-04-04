@@ -1,0 +1,6 @@
+{
+    "AppName": "Clinic Fever",
+    "WindowWidth": 1600,
+    "WindowHeight": 900,
+    "OpeningScene": "Assets/Scenes/MainMenu.scene"
+}
