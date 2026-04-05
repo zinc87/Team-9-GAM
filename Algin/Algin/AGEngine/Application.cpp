@@ -136,12 +136,12 @@ namespace AG
 		AUDIOSYSTEM.Start(); //This must be after the assets init
 		AG::PostProcesser::GetInstance().Init();
 		//PHYSICS.Init();
-
 #ifdef EXPORT
 		AG::System::SerializationSystem::GetInstance().loadSceneJson(m_openingScene);
 		SCENESTATEMANAGER.SetSceneState(System::SceneManager::PLAYING);
 		SCENESTATEMANAGER.RunOnStart();
 		AGWINDOW.toggleFullScreen();
+		glfwFocusWindow(AGWINDOW.getWindowContext());
 #endif 
 	}
 
