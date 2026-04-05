@@ -44,8 +44,8 @@ namespace AG
 			if (vpW < 1) vpW = 1;
 			if (vpH < 1) vpH = 1;
 
-			int vpX = static_cast<int>(rect.x * winW);
-			int vpY = static_cast<int>((1.0f - rect.y - rect.h) * winH); // top-left origin -> bottom-left
+			int vpX = static_cast<int>(0);
+			int vpY = static_cast<int>(0); // top-left origin -> bottom-left
 
 			// Swap in overlay camera for this render
 			CAMERAMANAGER.setGameCamera(overlayCam);
