@@ -52,9 +52,9 @@ namespace AG {
 
 			void SetWrapLimit(float limit);
 
-			void SetWrap(bool wrap);
+			void SetWrap(bool _wrap);
 
-			void SetCentered(bool centered);
+			void SetCentered(bool _centered);
 
 			void SetColor(float r, float g, float b, float a);
 

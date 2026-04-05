@@ -276,6 +276,7 @@ void BatchRenderer::RenderText(std::string content, Color clr, Transform2D& trf,
 	bool left_aligned, bool centered, bool right_aligned,
 	float font_size, float line_spacing, float letter_spacing)
 {
+	(void)left_aligned;
 	// --- 1. Get Asset ---
 	std::shared_ptr<IAsset> asset_shared = AssetManager::GetInstance().GetAsset(font_hash_id).lock();
 	if (!asset_shared)

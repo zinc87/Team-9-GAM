@@ -163,14 +163,14 @@ void AG::Component::TextMeshUIComponent::SetWrapLimit(float limit)
 	wrap_limit = limit;
 }
 
-void AG::Component::TextMeshUIComponent::SetWrap(bool wrap)
+void AG::Component::TextMeshUIComponent::SetWrap(bool _wrap)
 {
-	this->wrap = wrap;
+	this->wrap = _wrap;
 }
 
-void AG::Component::TextMeshUIComponent::SetCentered(bool centered)
+void AG::Component::TextMeshUIComponent::SetCentered(bool _centered)
 {
-	this->centered = centered;
+	this->centered = _centered;
 }
 
 void AG::Component::TextMeshUIComponent::SetColor(float r, float g, float b, float a)
