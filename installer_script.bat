@@ -9,7 +9,7 @@ echo =======================================================
 set "INNO_COMPILER=C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 
 :: CHANGE THE NAME BELOW TO YOUR ACTUAL .iss FILE NAME
-set "ISS_SCRIPT="InstallerScript.iss"
+set "ISS_SCRIPT="InstallScript.iss"
 
 echo Checking for Inno Setup compiler...
 if not exist "%INNO_COMPILER%" (
