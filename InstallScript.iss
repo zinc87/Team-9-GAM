@@ -26,7 +26,7 @@ DefaultDirName={pf}\DigiPen\Clinic Fever
 DefaultGroupName=DigiPen\Clinic Fever
 
 ; Output directory for the installer.
-OutputDir=.\
+OutputDir=.\INSTALLER\
 
 ; Setup executable installer
 OutputBaseFilename=Clinic Fever_Setup
