@@ -8,9 +8,8 @@ echo =======================================================
 :: Define the system path to the Inno Setup Compiler on the Jenkins server
 set "INNO_COMPILER=C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
 
-:: Define the path to your actual Inno Setup script
-:: (Change "MyInstallerConfig.iss" to whatever your .iss file is actually named)
-set "ISS_SCRIPT=MyInstallerConfig.iss"
+:: CHANGE THE NAME BELOW TO YOUR ACTUAL .iss FILE NAME
+set "ISS_SCRIPT=YOUR_ACTUAL_FILE_NAME_HERE.iss"
 
 echo Checking for Inno Setup compiler...
 if not exist "%INNO_COMPILER%" (
@@ -21,7 +20,7 @@ if not exist "%INNO_COMPILER%" (
 
 echo.
 echo Compiling %ISS_SCRIPT% in Quiet Mode...
-:: The /Q flag is CRITICAL here. It hides pop-ups so Jenkins does not hang.
+:: The /Q flag hides pop-ups so Jenkins does not hang.
 "%INNO_COMPILER%" /Q "%ISS_SCRIPT%"
 
 :: Check if Inno Setup threw an error during compilation
@@ -37,6 +36,4 @@ echo [2/2] Installer Build Complete!
 echo The setup file has been successfully generated.
 echo =======================================================
 
-:: Note: There are deliberately no commands down here to run the final .exe.
-:: The script will now quietly close and hand control back to Jenkins for the Butler upload.
 exit /b 0
