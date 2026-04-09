@@ -1,29 +1,42 @@
 @echo off
+setlocal
 
-::  Check if the Export directory exists
-if not exist "Algin\bin\x64\Export\" (
-    echo ERROR: Export directory "Algin\bin\x64\Export" does not exist.
-    pause
-    exit /b
+echo =======================================================
+echo [1/2] Starting Installer Build Process...
+echo =======================================================
+
+:: Define the system path to the Inno Setup Compiler on the Jenkins server
+set "INNO_COMPILER=C:\Program Files (x86)\Inno Setup 6\ISCC.exe"
+
+:: Define the path to your actual Inno Setup script
+:: (Change "MyInstallerConfig.iss" to whatever your .iss file is actually named)
+set "ISS_SCRIPT=MyInstallerConfig.iss"
+
+echo Checking for Inno Setup compiler...
+if not exist "%INNO_COMPILER%" (
+    echo [ERROR] Inno Setup compiler not found at: "%INNO_COMPILER%"
+    echo Please verify the installation path on the Jenkins server.
+    exit /b 1
 )
 
-::  Check if the Export directory is empty
-dir /b /a "Algin\bin\x64\Export\" | findstr "^" >nul
-if %errorlevel% neq 0 (
-    echo ERROR: Export directory is empty. Please build your project first.
-    pause
-    exit /b
+echo.
+echo Compiling %ISS_SCRIPT% in Quiet Mode...
+:: The /Q flag is CRITICAL here. It hides pop-ups so Jenkins does not hang.
+"%INNO_COMPILER%" /Q "%ISS_SCRIPT%"
+
+:: Check if Inno Setup threw an error during compilation
+if %ERRORLEVEL% NEQ 0 (
+    echo.
+    echo [ERROR] Installer compilation failed! Check your .iss file syntax.
+    exit /b %ERRORLEVEL%
 )
 
-:: 1. Delete the old installer if it exists
-if exist "Clinic Fever_Setup.exe" del /f /q "Clinic Fever_Setup.exe"
+echo.
+echo =======================================================
+echo [2/2] Installer Build Complete! 
+echo The setup file has been successfully generated.
+echo =======================================================
 
-:: 2. Set the path to the Inno Setup Compiler
-:: Ensure this path matches where Inno Setup is installed on your PC
-set ISCC_PATH="INSTALLERFILES\Inno Setup 6\ISCC.exe"
-
-:: 3. Compile the script
-%ISCC_PATH% "InstallScript.iss"
-
-:: 5. Close the terminal window automatically
-exit
+:: Note: There are deliberately no commands down here to run the final .exe.
+:: The script will now quietly close and hand control back to Jenkins for the Butler upload.
+exit /b 0
