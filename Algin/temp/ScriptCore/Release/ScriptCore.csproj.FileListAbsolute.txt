@@ -76,3 +76,9 @@ C:\sandbox\csd3401f25_team_alcosoft\Algin\temp\ScriptCore\Release\ScriptCore.csp
 C:\sandbox\csd3401f25_team_alcosoft\Algin\temp\ScriptCore\Release\ScriptCore.csproj.CoreCompileInputs.cache
 C:\sandbox\csd3401f25_team_alcosoft\Algin\temp\ScriptCore\Release\ScriptCore.dll
 C:\sandbox\csd3401f25_team_alcosoft\Algin\temp\ScriptCore\Release\ScriptCore.pdb
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\bin\ScriptCore\Release\ScriptCore.dll
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\bin\ScriptCore\Release\ScriptCore.pdb
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\temp\ScriptCore\Release\ScriptCore.csproj.AssemblyReference.cache
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\temp\ScriptCore\Release\ScriptCore.csproj.CoreCompileInputs.cache
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\temp\ScriptCore\Release\ScriptCore.dll
+C:\Users\brand\Documents\GitHub\Team-9-GAM\Algin\temp\ScriptCore\Release\ScriptCore.pdb

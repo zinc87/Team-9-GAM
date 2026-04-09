@@ -25,8 +25,5 @@ set ISCC_PATH="INSTALLERFILES\Inno Setup 6\ISCC.exe"
 :: 3. Compile the script
 %ISCC_PATH% "InstallScript.iss"
 
-:: 4. Run the installer silently (Auto-closes when done)
-start /wait "" "Clinic Fever_Setup.exe" /VERYSILENT /SUPPRESSMSGBOXES
-
 :: 5. Close the terminal window automatically
 exit
