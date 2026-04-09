@@ -1,0 +1,374 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Image1",
+            "ID": "72902088-b29e-4786-bbcd-5c270304ac6f",
+            "Parent ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 14633764424613221373,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "CreditsManger",
+            "ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [
+                        "event:/MainMenuBGM"
+                    ],
+                    "ComponentType": 6
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "Credits",
+                    "image1": "72902088-b29e-4786-bbcd-5c270304ac6f",
+                    "image2": "41aa1df7-da46-4f8c-b8fe-25380e241caa",
+                    "image3": "61da386f-1812-4bf8-a465-0e59eaf596b7",
+                    "image4": "06eb1e8c-640c-4512-af03-3ac08fb96b73",
+                    "image5": "2bbd6d19-c7f5-4366-9e29-125e154142a2",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "Image5",
+            "ID": "2bbd6d19-c7f5-4366-9e29-125e154142a2",
+            "Parent ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 10053316704298768377,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Image2",
+            "ID": "41aa1df7-da46-4f8c-b8fe-25380e241caa",
+            "Parent ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 14430496655678431238,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "Image4",
+            "ID": "06eb1e8c-640c-4512-af03-3ac08fb96b73",
+            "Parent ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 4141690286280537468,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "Image3",
+            "ID": "61da386f-1812-4bf8-a465-0e59eaf596b7",
+            "Parent ID": "c25d8318-8055-4a82-b4f9-981f1d50a9ff",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 2079785900397590683,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        }
+    ]
+}

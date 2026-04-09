@@ -1,0 +1,37 @@
+{
+    "Object List": [
+        {
+            "Object Name": "GameObject 1",
+            "ID": "776c47ee-891d-4633-b43f-be132d8785c1",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [
+                        "event:/DoorOpen",
+                        "event:/FootSteps",
+                        "event:/AmbienceBackground"
+                    ],
+                    "ComponentType": 6
+                }
+            }
+        }
+    ]
+}

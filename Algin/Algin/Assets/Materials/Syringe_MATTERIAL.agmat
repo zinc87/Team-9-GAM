@@ -1,0 +1,25 @@
+{
+    "material_name": "Syringe_MATTERIAL",
+    "shader_name": "",
+    "reference_mat": 0,
+    "albedo_hash": 0,
+    "normal_hash": 0,
+    "baseColor": [
+        0.4941176474094391,
+        0.8901960849761963,
+        1.0,
+        1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.0,
+    "uv_scale": 1.0,
+    "tint": 1.0,
+    "override_shader": false,
+    "override_albedo": false,
+    "override_normal": false,
+    "override_baseColor": false,
+    "override_metallic": false,
+    "override_roughness": false,
+    "override_uv_scale": false,
+    "override_tint": false
+}

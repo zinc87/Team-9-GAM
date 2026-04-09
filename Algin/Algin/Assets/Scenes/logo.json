@@ -1,0 +1,38 @@
+{
+    "Objects": [
+        {
+            "ID": "208c51b2-0bd6-4dfc-8e15-cf465835bf89",
+            "Name": "Logo",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "f27fd177-a6e7-4d5e-9fe2-3cf419a9a4f8",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 13,
+                    "ID": "4a3d1de0-2fb8-42dd-aec5-b4fa7d3a6612",
+                    "Image Hashed": 15749845745695191968,
+                    "TexCoord": [[0, 1], [1, 1], [1, 0], [0, 0]],
+                    "Color": [1, 1, 1, 1]
+                },
+                {
+                    "Type": 2,
+                    "ID": "9cbac853-4223-4357-929c-c0f8b721b95b",
+                    "Position": [0, 0, 0],
+                    "Scale": [3.8, 2.1],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 14,
+                    "ID": "62f65535-95c3-46aa-b944-6705b48a3087",
+                    "Script Name": "Logo"
+                }
+    ]
+}
+,
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "reference_mat": 0,
+    "albedo_hash": 0,
+    "normal_hash": 0,
+    "baseColor": [
+        1.0,
+        0.5,
+        0.0,
+        1.0
+    ],
+    "metallic": 0.1,
+    "roughness": 0.5,
+    "uv_scale": 1.0,
+    "tint": 1.0
+}

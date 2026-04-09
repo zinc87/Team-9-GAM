@@ -1,0 +1,74 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Logo",
+            "ID": "208c51b2-0bd6-4dfc-8e15-cf465835bf89",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 15749845745695191968,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.799999952316284,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "Logo",
+                    "ComponentType": 14
+                }
+            }
+        }
+    ]
+}

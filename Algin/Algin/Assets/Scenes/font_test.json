@@ -1,0 +1,108 @@
+{
+    "Objects": [
+        {
+            "ID": "5af3228b-73c5-4ef8-aa3b-1538eddd498e",
+            "Name": "GameObject 1",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 2,
+                    "ID": "d902ef76-1fd0-4cc6-b796-81f9e0f0a393",
+                    "Position": [1.3224, 0.0163934, 0],
+                    "Scale": [1, 1],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 16,
+                    "ID": "e2fbc317-9ae7-46ca-8386-4b61c3887887",
+                    "Font Color": [1.000000, 0.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 30.000000,
+                    "Line Spacing": 1.550000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 0.920000,
+                    "Wrap Text": true,
+                    "Centered": false,
+                    "RightAlign": true,
+                    "LeftAlign": false,
+                    "Text Content": "RIGHT"
+                }
+    ]
+}
+,
+        {
+            "ID": "d4d09f3e-d338-406b-aef0-9e81e65a1f8b",
+            "Name": "GameObject 1 Copy",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "bd426b93-21ff-4262-aacb-c6d679067616",
+                    "Position": [0.048891, 3.548660, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "3fa3ca1e-0988-4f6e-b6c0-35be8badcfaa",
+                    "Position": [0.010929, 0.551913, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 16,
+                    "ID": "4a01e669-93d4-4b14-ae30-44ba070fc36a",
+                    "Font Color": [1.000000, 0.000000, 1.000000, 1.000000],
+                    "Font Hash": 3444599998288276559,
+                    "Font Size": 30.000000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "RightAlign": false,
+                    "LeftAlign": false,
+                    "Text Content": "CENTER"
+                }
+    ]
+}
+,
+        {
+            "ID": "ddd65977-4751-4606-b73c-362a43a56ae6",
+            "Name": "GameObject 1 Copy Copy",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "f2d886a2-0e4c-4584-9b74-6388963cdde2",
+                    "Position": [-1.140777, 2.907658, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "1ef43609-7f75-4685-812b-683eb848e19b",
+                    "Position": [-1.185792, -0.092896, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 16,
+                    "ID": "8eb429ef-1aa6-4c24-ad0b-fe8ea5d210b6",
+                    "Font Color": [1.000000, 0.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 30.000000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": false,
+                    "RightAlign": false,
+                    "LeftAlign": true,
+                    "Text Content": "LEFT"
+                }
+    ]
+}
+
+    ]
+}

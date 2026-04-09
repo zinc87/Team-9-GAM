@@ -1,0 +1,182 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Text UI",
+            "ID": "caf7230f-3746-4166-9c89-738a041a57cd",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -1.9589999914169312,
+                        "y": 3.990999937057495,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -1.5759999752044678,
+                        "y": 0.796999990940094,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4000000059604645,
+                        "y": 0.4000000059604645
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [
+                        {
+                            "u": 0.050663433969020844,
+                            "v": 0.9529551267623901
+                        },
+                        {
+                            "u": 0.9577802419662476,
+                            "v": 0.9529551267623901
+                        },
+                        {
+                            "u": 0.9577802419662476,
+                            "v": 0.041013263165950775
+                        },
+                        {
+                            "u": 0.050663433969020844,
+                            "v": 0.041013263165950775
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Video Player",
+            "ID": "642e1475-3668-4672-b93c-9642b7a41f96",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::VideoPlayerComponent": {
+                    "Video Path": "Assets/Videos/EndingCutsceneWIP.mpg",
+                    "Play On Start": true,
+                    "Loop": false,
+                    "ComponentType": 23
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "caf7230f-3746-4166-9c89-738a041a57cd",
+                    "fadeOverlay": "9ce4b4e7-9680-4ee6-86ed-054f3deb6c9e",
+                    "ComponentType": 14
+                },
+                "AG::Component::CameraComponent": {
+                    "Projection": 1,
+                    "Near Plane": 0.10000000149011612,
+                    "Far Plane": 50.0,
+                    "FOV": 60.0,
+                    "Vertical Size": 10.0,
+                    "Game Camera": true,
+                    "ComponentType": 3
+                }
+            }
+        },
+        {
+            "Object Name": "Fade Overlay",
+            "ID": "9ce4b4e7-9680-4ee6-86ed-054f3deb6c9e",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 17498722206870229050,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 4.0,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,981 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Background",
+            "ID": "b2aae9a0-0f2a-4f1b-9170-09dec210f212",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.700000047683716,
+                        "y": 2.081249952316284
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 6457917724792619755,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "MainMenuButtons",
+                    "quitHover": 3172546584817967187,
+                    "startNormal": 6908885112657919138,
+                    "startButton": "fa81dd30-9ff6-473a-a501-133578aac885",
+                    "startHover": 17969328118930548880,
+                    "settingsNormal": 2640424175056225135,
+                    "settingsHover": 7940992860480311281,
+                    "quitNormal": 5795504648956779237,
+                    "settingsButton": "3e01ef5b-4a15-4acb-83cf-60988210dc7a",
+                    "quitButton": "e3a55e6e-ed1d-425b-b061-9ddecae29d3b",
+                    "fadeOverlay": "e211914e-f947-4bc8-a78d-23f8bb6fb7e0",
+                    "ComponentType": 14
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [],
+                    "ComponentType": 6
+                }
+            }
+        },
+        {
+            "Object Name": "Settings",
+            "ID": "3e01ef5b-4a15-4acb-83cf-60988210dc7a",
+            "Parent ID": "b2aae9a0-0f2a-4f1b-9170-09dec210f212",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.038832999765872955,
+                        "y": 2.753822088241577,
+                        "z": -0.000060999998822808266
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -0.010417000390589237,
+                        "y": -0.6000000238418579,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.699999988079071,
+                        "y": 0.210999995470047
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 2640424175056225135,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Start",
+            "ID": "fa81dd30-9ff6-473a-a501-133578aac885",
+            "Parent ID": "b2aae9a0-0f2a-4f1b-9170-09dec210f212",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.03883200138807297,
+                        "y": 2.821171998977661,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -0.010417000390589237,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.699999988079071,
+                        "y": 0.21056899428367615
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 6908885112657919138,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Quit",
+            "ID": "e3a55e6e-ed1d-425b-b061-9ddecae29d3b",
+            "Parent ID": "b2aae9a0-0f2a-4f1b-9170-09dec210f212",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.038832999765872955,
+                        "y": 2.753822088241577,
+                        "z": -0.000060999998822808266
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -0.010417000390589237,
+                        "y": -0.30000001192092896,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.699999988079071,
+                        "y": 0.21056899428367615
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 5795504648956779237,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Sound % Text",
+            "ID": "8e11f7fb-e318-4ffd-a034-8205b7c24062",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 1.0216130018234253,
+                        "y": 3.2748100757598877,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.7884619832038879,
+                        "y": 0.20999999344348907,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 0.8274509906768799,
+                        "b": 0.49411800503730774,
+                        "a": 0.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 10.0,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "RightAlign": false,
+                    "LeftAlign": false,
+                    "Text Content": "100%",
+                    "ComponentType": 16
+                }
+            }
+        },
+        {
+            "Object Name": "mainmenu bgm",
+            "ID": "bb512f3c-7ce6-42de-b47a-ca343c9f1a1e",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [
+                        "event:/MainMenuBGM"
+                    ],
+                    "ComponentType": 6
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "MainMenuBGM",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "Settings Page",
+            "ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.700000047683716,
+                        "y": 2.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 11167260640222900780,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "SettingsPanelMgr",
+                    "backButton": "edf1ce54-bdea-49de-ac67-b653d2354fba",
+                    "sliderTrackTexture": 4056898634214556810,
+                    "settingsBgTexture": 11167260640222900780,
+                    "sliderKnobTexture": 8402961218410964255,
+                    "settingsPanelBg": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+                    "backNormal": 7835441627404690233,
+                    "backHover": 1492205953353082831,
+                    "soundSliderTrack": "6bcdd56d-3bae-4304-ae87-17a47d5a90c7",
+                    "soundSliderKnob": "b3fa36f0-2c98-41ee-8e10-3138467665d2",
+                    "soundPercentText": "8e11f7fb-e318-4ffd-a034-8205b7c24062",
+                    "gammaSliderTrack": "1efa27c5-c0da-480e-b02b-875473cc51b3",
+                    "gammaSliderKnob": "7c762aaf-d0a8-46c4-bd62-b36c7e68efdc",
+                    "gammaPercentText": "6ed1e13b-f320-497a-903c-a465446cd281",
+                    "GammaText": "2b30ae07-cc46-4c01-97ae-bd16cba54e93",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "Gamma % Text",
+            "ID": "6ed1e13b-f320-497a-903c-a465446cd281",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 1.0216130018234253,
+                        "y": 2.9020938873291016,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.7884619832038879,
+                        "y": 0.019999999552965164,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 0.8274509906768799,
+                        "b": 0.49411800503730774,
+                        "a": 0.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 10.0,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "RightAlign": false,
+                    "LeftAlign": false,
+                    "Text Content": "2.20",
+                    "ComponentType": 16
+                }
+            }
+        },
+        {
+            "Object Name": "Sound Slider Bar",
+            "ID": "6bcdd56d-3bae-4304-ae87-17a47d5a90c7",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.2190520018339157,
+                        "y": 3.4381139278411865,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.08653900027275085,
+                        "y": 0.23999999463558197,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 0.11999999731779099
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 4056898634214556810,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Gamma Slider Bar",
+            "ID": "1efa27c5-c0da-480e-b02b-875473cc51b3",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.2190520018339157,
+                        "y": 2.8811380863189697,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.08653900027275085,
+                        "y": 0.05999999865889549,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 0.11999999731779099
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 4056898634214556810,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Gamma Slider",
+            "ID": "7c762aaf-d0a8-46c4-bd62-b36c7e68efdc",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -0.4807330071926117,
+                        "y": 3.007966995239258,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.5865389704704285,
+                        "y": 0.0625,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.15000000596046448
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 8402961218410964255,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Sound Slider",
+            "ID": "b3fa36f0-2c98-41ee-8e10-3138467665d2",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -0.4807330071926117,
+                        "y": 3.345315933227539,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.5865389704704285,
+                        "y": 0.2451920062303543,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.15000000596046448
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 8402961218410964255,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Back button",
+            "ID": "edf1ce54-bdea-49de-ac67-b653d2354fba",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -2.0731348991394043,
+                        "y": 3.8392250537872314,
+                        "z": -0.000060999998822808266
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -1.6682699918746948,
+                        "y": 0.8605769872665405,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.15000000596046448,
+                        "y": 0.15000000596046448
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 7835441627404690233,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "FadeOverlay",
+            "ID": "e211914e-f947-4bc8-a78d-23f8bb6fb7e0",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 17498722206870229050,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 4.0,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "GammaDisplay",
+            "ID": "2b30ae07-cc46-4c01-97ae-bd16cba54e93",
+            "Parent ID": "096fa1df-b2eb-423a-98b4-f8f0366f66cd",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": -142.3396759033203,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": -0.481675386428833,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 0.5714287161827087
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 15847383221059456699,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 0.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        }
+    ]
+}

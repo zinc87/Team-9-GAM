@@ -1,0 +1,764 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Next Level",
+            "ID": "43c8c5b4-ff3b-4492-a2a6-69260da33cb8",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": -0.75,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.5699999928474426,
+                        "y": 0.17872880399227142
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 5342109910707348609,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "summaryBG",
+            "ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "LevelSummaryScreen",
+                    "summaryBG": "8dd222d6-7e47-472b-888a-179297e0d2db",
+                    "titleText": "b4c4a13d-3ee9-4e7f-881a-27c13393a09b",
+                    "resultLoseImage": 12633688914761871193,
+                    "patientsDiagnosed": "385568e8-17e1-42f9-b880-22bf3930a66b",
+                    "moneyEarnedText": "f8f78269-554c-452b-9959-c2ee764507eb",
+                    "patientsCorrDiagnosed": "92d5bdd0-6dcd-4129-b8e9-59cc22d80e63",
+                    "scoreText": "00000000-0000-0000-0000-000000000000",
+                    "hintsUsedText": "b7fe0538-15e1-4bd4-b5f3-97e63d896747",
+                    "starState3": 4431102638112609911,
+                    "resultText": "00000000-0000-0000-0000-000000000000",
+                    "timeTakenText": "f3cfcfba-3e69-43bd-8e0c-ae1b8ac69feb",
+                    "retryButton": "e47937f5-b73e-4f12-9a1e-44e9e0d86b1d",
+                    "retryButtonText": "00000000-0000-0000-0000-000000000000",
+                    "starState0": 1366426492573999639,
+                    "mainMenuButton": "03abf665-adcc-4550-b4e1-9e85eac6d21b",
+                    "resultWinImage": 724645215951141660,
+                    "mainMenuButtonText": "00000000-0000-0000-0000-000000000000",
+                    "nextLevelButton": "43c8c5b4-ff3b-4492-a2a6-69260da33cb8",
+                    "nextLevelButtonText": "00000000-0000-0000-0000-000000000000",
+                    "starRatingImage": "ef6ff077-7e2f-40d8-bc12-bd91013a355b",
+                    "resultImage": "3b46fdb4-2380-4ff7-b17f-d110e362e98c",
+                    "starState1": 2852584535935069275,
+                    "starState2": 8944467659012375397,
+                    "ComponentType": 14
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 3919314530804265302,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 2.700000047683716,
+                        "y": 1.956423282623291
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [
+                        "event:/ButtonPress_003",
+                        "event:/HoverButton"
+                    ],
+                    "ComponentType": 6
+                }
+            }
+        },
+        {
+            "Object Name": "titleText",
+            "ID": "b4c4a13d-3ee9-4e7f-881a-27c13393a09b",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 0.0,
+                        "g": 0.08441543579101563,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 7.699999809265137,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "Level 1",
+                    "ComponentType": 16
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.9300000071525574,
+                        "y": 0.8100000023841858,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "patients Diagnosed text",
+            "ID": "385568e8-17e1-42f9-b880-22bf3930a66b",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.75,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "0/6",
+                    "ComponentType": 16
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.0,
+                        "y": 0.09000000357627869,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "corrDiagnosedText",
+            "ID": "92d5bdd0-6dcd-4129-b8e9-59cc22d80e63",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.0,
+                        "y": -0.029999999329447746,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.75,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": false,
+                    "Centered": true,
+                    "Text Content": "0/6",
+                    "ComponentType": 16
+                }
+            }
+        },
+        {
+            "Object Name": "HintsUsedText",
+            "ID": "b7fe0538-15e1-4bd4-b5f3-97e63d896747",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.75,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "0",
+                    "ComponentType": 16
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.0,
+                        "y": -0.27000001072883606,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "MoneyEarnedText",
+            "ID": "f8f78269-554c-452b-9959-c2ee764507eb",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.75,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "  +$0",
+                    "ComponentType": 16
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.0,
+                        "y": -0.15000000596046448,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "Time Taken",
+            "ID": "f3cfcfba-3e69-43bd-8e0c-ae1b8ac69feb",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.75,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "00:10",
+                    "ComponentType": 16
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.0,
+                        "y": -0.38999998569488525,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        },
+        {
+            "Object Name": "Main Menu",
+            "ID": "03abf665-adcc-4550-b4e1-9e85eac6d21b",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -0.699999988079071,
+                        "y": -0.75,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.5699999928474426,
+                        "y": 0.17872880399227142
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 9712045818407810416,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Retry",
+            "ID": "e47937f5-b73e-4f12-9a1e-44e9e0d86b1d",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.699999988079071,
+                        "y": -0.75,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.5699999928474426,
+                        "y": 0.17872880399227142
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 10801220491897685950,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Stars",
+            "ID": "ef6ff077-7e2f-40d8-bc12-bd91013a355b",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.800000011920929,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.7599999904632568,
+                        "y": 0.2540571391582489
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 1366426492573999639,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Win/lose",
+            "ID": "3b46fdb4-2380-4ff7-b17f-d110e362e98c",
+            "Parent ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.42500001192092896,
+                        "z": 1.0
+                    },
+                    "Scale": {
+                        "x": 0.800000011920929,
+                        "y": 0.1347985416650772
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 12633688914761871193,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        }
+    ]
+}

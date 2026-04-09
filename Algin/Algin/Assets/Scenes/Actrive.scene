@@ -1,0 +1,263 @@
+{
+    "Object List": [
+        {
+            "Object Name": "GameObject 2",
+            "ID": "77812b12-2083-48da-a366-eae09df3331b",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -0.13121402263641357,
+                        "y": 0.9546051621437073,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 1",
+            "ID": "135e5826-a874-45ed-a879-a0080576e6da",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -2.9434127807617188,
+                        "y": 0.9546051621437073,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 3",
+            "ID": "98c52e45-1e7e-4aa6-a8aa-1b73245bd92f",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 2.761253595352173,
+                        "y": 0.9546051621437073,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Controller",
+            "ID": "74d82a3e-51d4-4a92-a513-7cdbbee64b9e",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "Test",
+                    "obj1": "135e5826-a874-45ed-a879-a0080576e6da",
+                    "obj2": "77812b12-2083-48da-a366-eae09df3331b",
+                    "obj3": "98c52e45-1e7e-4aa6-a8aa-1b73245bd92f",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 4",
+            "ID": "a64d953b-1dbd-40ec-9892-42871d3476c0",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 4.91259765625,
+                        "z": 1.600000023841858
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::LightComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 4.91259765625,
+                        "z": 1.600000023841858
+                    },
+                    "Direction": {
+                        "x": 0.0,
+                        "y": -1.0,
+                        "z": 0.0
+                    },
+                    "Intensity": 6.854000091552734,
+                    "Range": 692.927001953125,
+                    "LightType": 0,
+                    "ComponentType": 5
+                }
+            }
+        }
+    ]
+}

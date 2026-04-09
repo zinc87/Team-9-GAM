@@ -1,0 +1,101 @@
+{
+    "Objects": [
+        {
+            "ID": "970dcd7c-376f-41e2-a82a-11280ad7b175",
+            "Name": "Video Player",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "5882a234-6844-464c-aa6e-15a961a6b65e",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 23,
+                    "ID": "5e6c6d5f-2c17-4350-aa56-d7608c7f539a",
+                    "Video Path": "Assets/Videos/WIP Cutscene.mpg",
+                    "Play On Start": true,
+                    "Loop": false
+                },
+                {
+                    "Type": 14,
+                    "ID": "cad960aa-837f-4070-8517-5e1fd90aecb6",
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "<unsupported>",
+                    "fadeOverlay": "<unsupported>"
+                },
+                {
+                    "Type": 3,
+                    "ID": "438db6e2-e166-4e3a-9274-a220a5d8f8d3",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                }
+    ]
+}
+,
+        {
+            "ID": "5c0d6497-963b-4221-a09b-235b7c046cc4",
+            "Name": "Text UI",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "8c0b6b6d-9fe8-4925-b4e3-304614241ce0",
+                    "Position": [-1.958579, 3.990993, 0.000061],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "7ad8bd57-bc7e-4724-a1f0-fba01585fd66",
+                    "Position": [-1.576138, 0.797488, 0.000000],
+                    "Scale": [0.400000, 0.400000],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "df796482-aae1-4139-97e7-30e9ab001a2c",
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [[0.047273, 0.960000], [0.950909, 0.960000], [0.950909, 0.058182], [0.047273, 0.058182]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "de34fc67-afff-45bc-85cd-0e71f270ee7f",
+            "Name": "Fade Overlay",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "de25e837-9b9e-4232-89c3-35a43c7f583b",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 13,
+                    "ID": "c9f973a7-32a2-420c-ad92-b7282a6414e5",
+                    "Image Hashed": 17498722206870229050,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [0.000000, 0.000000, 0.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "0d9b182c-4db6-4dc0-ab7d-3d765a07a464",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Scale": [4.000000, 2.100000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+    ]
+}

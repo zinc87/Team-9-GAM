@@ -1,0 +1,421 @@
+{
+    "Objects": [
+        {
+            "ID": "43c8c5b4-ff3b-4492-a2a6-69260da33cb8",
+            "Name": "Next Level",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "e901e48c-2592-4e66-8bfe-ba00d8aa5715",
+                    "Position": [0, 0, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 2,
+                    "ID": "e72d5573-bd4f-405e-8d4b-38fe7edc8bb2",
+                    "Position": [0, -0.75, 1],
+                    "Scale": [0.57, 0.178729],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "5d489401-4195-4695-a128-1683153a3c35",
+                    "Image Hashed": 5342109910707348609,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Name": "summaryBG",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "b71c68ec-9e6a-4705-80df-d3cdb0853487",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 14,
+                    "ID": "f327df68-e29d-488d-b763-6722ee3857c3",
+                    "Script Name": "LevelSummaryScreen",
+                    "summaryBG": "<unsupported>",
+                    "titleText": "<unsupported>",
+                    "resultLoseImage": 12633688914761871193,
+                    "patientsDiagnosed": "<unsupported>",
+                    "moneyEarnedText": "<unsupported>",
+                    "patientsCorrDiagnosed": "<unsupported>",
+                    "scoreText": "<unsupported>",
+                    "hintsUsedText": "<unsupported>",
+                    "starState3": 4431102638112609911,
+                    "resultText": "<unsupported>",
+                    "timeTakenText": "<unsupported>",
+                    "retryButton": "<unsupported>",
+                    "retryButtonText": "<unsupported>",
+                    "starState0": 1366426492573999639,
+                    "mainMenuButton": "<unsupported>",
+                    "resultWinImage": 724645215951141660,
+                    "mainMenuButtonText": "<unsupported>",
+                    "nextLevelButton": "<unsupported>",
+                    "nextLevelButtonText": "<unsupported>",
+                    "starRatingImage": "<unsupported>",
+                    "resultImage": "<unsupported>",
+                    "starState1": 2852584535935069275,
+                    "starState2": 8944467659012375397
+                },
+                {
+                    "Type": 13,
+                    "ID": "8cabe1b4-3f5a-40e1-9e75-39d1f90a081c",
+                    "Image Hashed": 3919314530804265302,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "986ef842-d0bf-4461-8ede-d292c583b41a",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Scale": [2.700000, 1.956423],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 6,
+                    "ID": "23cce7d4-8ae7-43a5-937b-52fa2df9f34f",
+                    "Audio Events": "<unsupported>"
+                }
+    ]
+}
+,
+        {
+            "ID": "b4c4a13d-3ee9-4e7f-881a-27c13393a09b",
+            "Name": "titleText",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "b7c998ff-9b62-4d86-b653-ae5123940252",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 16,
+                    "ID": "a29fab80-6e09-4f51-ac58-ae654557cf03",
+                    "Font Color": [0.000000, 0.084415, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 7.700000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "Level 1"
+                },
+                {
+                    "Type": 2,
+                    "ID": "99a045fa-e3f7-4b35-bcd3-aaf0f136defd",
+                    "Position": [0.930000, 0.810000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "385568e8-17e1-42f9-b880-22bf3930a66b",
+            "Name": "patients Diagnosed text",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "7c91f55a-d086-4452-9124-3ea37191f707",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 16,
+                    "ID": "98cbcb8a-d9eb-4650-9002-79c21a1d2770",
+                    "Font Color": [1.000000, 1.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.750000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "0/6"
+                },
+                {
+                    "Type": 2,
+                    "ID": "b96484d0-b8f1-4336-8af3-00c5a61c222b",
+                    "Position": [1.000000, 0.090000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "92d5bdd0-6dcd-4129-b8e9-59cc22d80e63",
+            "Name": "corrDiagnosedText",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "f0e3425d-b9bb-4bb8-9393-3a5e521c83fb",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "7732959f-6ce0-4b28-b368-f7f708973dcf",
+                    "Position": [1.000000, -0.030000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 16,
+                    "ID": "507b66ee-ebcc-4abf-a0ec-8b156e81d407",
+                    "Font Color": [1.000000, 1.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.750000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": false,
+                    "Centered": true,
+                    "Text Content": "0/6"
+                }
+    ]
+}
+,
+        {
+            "ID": "b7fe0538-15e1-4bd4-b5f3-97e63d896747",
+            "Name": "HintsUsedText",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "35a54051-5c1a-4f4c-81a6-295a39462e0f",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 16,
+                    "ID": "27c77266-612b-4240-9f3d-0d6b01a5183e",
+                    "Font Color": [1.000000, 1.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.750000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "0"
+                },
+                {
+                    "Type": 2,
+                    "ID": "3064d0e1-aab3-461b-ada0-5a79352e0f29",
+                    "Position": [1.000000, -0.270000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "f8f78269-554c-452b-9959-c2ee764507eb",
+            "Name": "MoneyEarnedText",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "0068b260-9a0f-4465-8db8-dfee5ee63072",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 16,
+                    "ID": "f4685d9b-4adf-4c69-a081-d3fa0486b16a",
+                    "Font Color": [1.000000, 1.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.750000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "  +$0"
+                },
+                {
+                    "Type": 2,
+                    "ID": "26b92532-a3d3-46a9-847d-1227995484da",
+                    "Position": [1.000000, -0.150000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "f3cfcfba-3e69-43bd-8e0c-ae1b8ac69feb",
+            "Name": "Time Taken",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "eb77f35f-d38b-482a-b5de-d7061fe74919",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 16,
+                    "ID": "022bc983-b965-40ae-ad11-bc85e02621c0",
+                    "Font Color": [1.000000, 1.000000, 1.000000, 1.000000],
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 8.750000,
+                    "Line Spacing": 1.000000,
+                    "Word Spacing": 0.000000,
+                    "Wrap Limit": 1.000000,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "Text Content": "00:10"
+                },
+                {
+                    "Type": 2,
+                    "ID": "fd8fced0-2512-4e5d-ab53-996f70c5a96a",
+                    "Position": [1.000000, -0.390000, 0.000000],
+                    "Scale": [1.000000, 1.000000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+        {
+            "ID": "03abf665-adcc-4550-b4e1-9e85eac6d21b",
+            "Name": "Main Menu",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "e0834b8c-8637-4660-958f-41760125801e",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "9ff73ce7-9efb-47fb-b589-ef211e7ae3a0",
+                    "Position": [-0.700000, -0.750000, 0.000000],
+                    "Scale": [0.570000, 0.178729],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "2cbcb2db-9a54-41cf-b503-0a8a2b0a0c33",
+                    "Image Hashed": 9712045818407810416,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "e47937f5-b73e-4f12-9a1e-44e9e0d86b1d",
+            "Name": "Retry",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "4ef789bf-170e-48b8-9533-b1b0bca08f7e",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "214f04a0-02f7-45f3-94d3-b4e11ee8afeb",
+                    "Position": [0.700000, -0.750000, 1.000000],
+                    "Scale": [0.570000, 0.178729],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "569bb6bd-1f69-4bfe-951e-c09ccab811b5",
+                    "Image Hashed": 10801220491897685950,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "ef6ff077-7e2f-40d8-bc12-bd91013a355b",
+            "Name": "Stars",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "7646d4e5-487e-4b40-aa4e-8cdb3af2e1be",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "b38608df-0e86-458d-a1d3-fc07452aa25d",
+                    "Position": [0.000000, 0.800000, 1.000000],
+                    "Scale": [0.760000, 0.254057],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "463f0b31-e183-425c-8287-bac2833eebe2",
+                    "Image Hashed": 1366426492573999639,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "3b46fdb4-2380-4ff7-b17f-d110e362e98c",
+            "Name": "Win/lose",
+            "Parent": "8dd222d6-7e47-472b-888a-179297e0d2db",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "7ac5250f-d2c1-4983-be57-2c7a56611b6a",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "83aa9b73-3539-45a4-a08b-6b9558bd3254",
+                    "Position": [0.000000, 0.425000, 1.000000],
+                    "Scale": [0.800000, 0.134799],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "989c1328-3e55-4768-9e74-6a630335cc71",
+                    "Image Hashed": 12633688914761871193,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+    ]
+}

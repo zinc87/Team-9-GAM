@@ -1,0 +1,23 @@
+{
+    "material_name": "Bag_Inst_tag",
+    "reference_mat": 14360545305417218441,
+    "albedo_hash": 5862941385642876631,
+    "normal_hash": 0,
+    "baseColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.0,
+    "uv_scale": 1.0,
+    "tint": 1.0,
+    "override_albedo": true,
+    "override_normal": false,
+    "override_baseColor": false,
+    "override_metallic": false,
+    "override_roughness": false,
+    "override_uv_scale": false,
+    "override_tint": false
+}

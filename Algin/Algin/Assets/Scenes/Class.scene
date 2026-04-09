@@ -1,0 +1,1881 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Classroom",
+            "ID": "ca0b4dec-dc31-431d-9abc-1c9929d009a5",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                }
+            }
+        },
+        {
+            "Object Name": "Light",
+            "ID": "68347b7d-d729-4498-b197-c61bd6872e8b",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0022040000185370445,
+                        "y": 35.01369857788086,
+                        "z": 50.19940185546875
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 10.0,
+                        "y": 10.0,
+                        "z": 10.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::LightComponent": {
+                    "Position": {
+                        "x": 0.0022040000185370445,
+                        "y": 35.01369857788086,
+                        "z": 50.19940185546875
+                    },
+                    "Direction": {
+                        "x": 0.0,
+                        "y": -1.0,
+                        "z": 0.0
+                    },
+                    "Intensity": 17.290000915527344,
+                    "Range": 376.5159912109375,
+                    "LightType": 0,
+                    "ComponentType": 5
+                }
+            }
+        },
+        {
+            "Object Name": "Book 8",
+            "ID": "f3ee9183-c88c-4216-9a11-f6c08f95ebdb",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -13.478599548339844,
+                        "y": -7.0,
+                        "z": 34.61640167236328
+                    },
+                    "Rotation": {
+                        "x": -180.0,
+                        "y": 89.9999008178711,
+                        "z": -180.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 1",
+            "ID": "bc215805-c4df-485b-b165-eb1cd524d071",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 1",
+            "ID": "04ca62ec-ab66-463f-a855-8906f24976f5",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 12.5,
+                        "y": -7.0,
+                        "z": -32.15446472167969
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 89.99994659423828,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Wall",
+            "ID": "ff24d73a-47ff-4916-a8de-98240733b3bc",
+            "Parent ID": "ca0b4dec-dc31-431d-9abc-1c9929d009a5",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 15.0,
+                        "z": -30.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 120.0,
+                        "y": 29.899999618530273,
+                        "z": 2.5
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Wall 2",
+            "ID": "6160e0b5-4492-478e-9456-358d5d94082d",
+            "Parent ID": "ca0b4dec-dc31-431d-9abc-1c9929d009a5",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -60.00544357299805,
+                        "y": 15.0,
+                        "z": 47.5621223449707
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": -89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 160.0,
+                        "y": 29.89999771118164,
+                        "z": 2.5
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 7",
+            "ID": "d108a3d0-4b0c-4a86-8b6b-cae0aaef76e3",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 12.561161041259766,
+                        "y": -7.0,
+                        "z": 34.210044860839844
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Wall 4",
+            "ID": "d76036fb-964d-4d70-9a1d-434faea3b595",
+            "Parent ID": "ca0b4dec-dc31-431d-9abc-1c9929d009a5",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 59.68702697753906,
+                        "y": 15.0,
+                        "z": 47.522705078125
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": -89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 160.0,
+                        "y": 29.89999771118164,
+                        "z": 2.5
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Seats",
+            "ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                }
+            }
+        },
+        {
+            "Object Name": "Table 2",
+            "ID": "6e5fdddf-16a3-45a3-aaa2-a18e5fc3d50c",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 28.5,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 8",
+            "ID": "9a3e8858-b7b5-4cda-a012-3f61b36b82b6",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -26.511009216308594,
+                        "y": 0.0,
+                        "z": 67.09832763671875
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 2",
+            "ID": "7e496cff-33dd-4954-a28f-e4973e3708a3",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 41.5,
+                        "y": -7.0,
+                        "z": -31.863048553466797
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 3",
+            "ID": "31998442-c788-4d99-9467-4067257bed7a",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -15.99999713897705,
+                        "y": -7.0,
+                        "z": -32.166507720947266
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 3",
+            "ID": "69e05301-13a1-4531-8d76-2c55715d2edf",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -28.22652816772461,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 4",
+            "ID": "d89d1241-2979-4ea9-ac5a-d943da1a9210",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 34.5
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 4",
+            "ID": "ef8507b2-462e-4630-854a-ce7ff9cb6a1b",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 12.5,
+                        "y": -7.0,
+                        "z": 2.277777910232544
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 5",
+            "ID": "cba3a04d-0c15-4eed-b07e-0611b0bc7a77",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 29.168851852416992,
+                        "y": 0.0,
+                        "z": 34.5
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 5",
+            "ID": "9be4518e-7ebf-4808-bb06-e57267881e4c",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 42.167381286621094,
+                        "y": -7.0,
+                        "z": 1.8833680152893066
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 6",
+            "ID": "625f63d2-02ac-4b9c-958e-f8f86ec62b10",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -27.2912654876709,
+                        "y": 0.0,
+                        "z": 34.765045166015625
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 6",
+            "ID": "f9d195f5-b4d2-4cbc-9793-614cb2b00948",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -15.235355377197266,
+                        "y": -7.135015964508057,
+                        "z": 3.0411159992218018
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 7",
+            "ID": "a165b622-c352-45a2-baf7-a6bd422413e5",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 66.9321517944336
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Table 9",
+            "ID": "9de58abc-6d88-4079-a9b5-87c2882d30fb",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 29.732248306274414,
+                        "y": 0.0,
+                        "z": 67.22476196289063
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15800714547749050326,
+                    "Mesh": "WoodenTable.agstaticmesh",
+                    "SubMesh Hashes": [
+                        18169225911014016028
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 0.8705880045890808,
+                                "z": 0.7019609808921814
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Book 9",
+            "ID": "8471bf4e-4be2-4ea4-8556-fdc42b150b8b",
+            "Parent ID": "733069a6-6f9a-4c1a-b842-2a950fbf0789",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 41.41139602661133,
+                        "y": -24.52098274230957,
+                        "z": 34.43462371826172
+                    },
+                    "Rotation": {
+                        "x": -179.99989318847656,
+                        "y": 89.99994659423828,
+                        "z": -179.99989318847656
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.20000000298023224,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 15027398159733697353,
+                    "Mesh": "OpenBook.agstaticmesh",
+                    "SubMesh Hashes": [
+                        5523969042281849046
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.8470590114593506,
+                                "y": 0.6039220094680786,
+                                "z": 0.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Wall 3",
+            "ID": "e01e5239-cd97-4589-a055-acb5e0ad0392",
+            "Parent ID": "ca0b4dec-dc31-431d-9abc-1c9929d009a5",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 1.1269090175628662,
+                        "y": 14.341972351074219,
+                        "z": 129.78396606445313
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 122.5999984741211,
+                        "y": 29.899999618530273,
+                        "z": 2.5
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 14812330306611501493,
+                    "Mesh": "cube.agstaticmesh",
+                    "SubMesh Hashes": [
+                        1652793458591832016
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "Classmate",
+            "ID": "3490c8a5-a2a7-417b-868e-a97674a81269",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 6.800830841064453,
+                        "y": 0.0,
+                        "z": 63.585243225097656
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": -0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.09999100118875504,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::SkinnedMeshRenderer": {
+                    "Mesh Hash": 486883969607872449,
+                    "Animation Clip Name": "",
+                    "Loop": true,
+                    "Play": false,
+                    "Use Correction": false,
+                    "Shininess": 32.0,
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "Material Values": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "ComponentType": 8
+                }
+            }
+        }
+    ]
+}

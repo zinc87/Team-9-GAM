@@ -1,0 +1,182 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Video Player",
+            "ID": "970dcd7c-376f-41e2-a82a-11280ad7b175",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::VideoPlayerComponent": {
+                    "Video Path": "Assets/Videos/WIP Cutscene.mpg",
+                    "Play On Start": true,
+                    "Loop": false,
+                    "ComponentType": 23
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "5c0d6497-963b-4221-a09b-235b7c046cc4",
+                    "fadeOverlay": "de34fc67-afff-45bc-85cd-0e71f270ee7f",
+                    "ComponentType": 14
+                },
+                "AG::Component::CameraComponent": {
+                    "Projection": 1,
+                    "Near Plane": 0.10000000149011612,
+                    "Far Plane": 50.0,
+                    "FOV": 60.0,
+                    "Vertical Size": 10.0,
+                    "Game Camera": true,
+                    "ComponentType": 3
+                }
+            }
+        },
+        {
+            "Object Name": "Text UI",
+            "ID": "5c0d6497-963b-4221-a09b-235b7c046cc4",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -1.9585788249969482,
+                        "y": 3.9909932613372803,
+                        "z": 0.00006103515625
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -1.5761382579803467,
+                        "y": 0.7974882125854492,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.4000000059604645,
+                        "y": 0.4000000059604645
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [
+                        {
+                            "u": 0.0472727008163929,
+                            "v": 0.9600000381469727
+                        },
+                        {
+                            "u": 0.9509091377258301,
+                            "v": 0.9600000381469727
+                        },
+                        {
+                            "u": 0.9509091377258301,
+                            "v": 0.05818181484937668
+                        },
+                        {
+                            "u": 0.0472727008163929,
+                            "v": 0.05818181484937668
+                        }
+                    ],
+                    "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                }
+            }
+        },
+        {
+            "Object Name": "Fade Overlay",
+            "ID": "de34fc67-afff-45bc-85cd-0e71f270ee7f",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::Image2DComponent": {
+                    "Image Hashed": 17498722206870229050,
+                    "TexCoord": [
+                        {
+                            "u": 0.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 1.0
+                        },
+                        {
+                            "u": 1.0,
+                            "v": 0.0
+                        },
+                        {
+                            "u": 0.0,
+                            "v": 0.0
+                        }
+                    ],
+                    "Color": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "ComponentType": 13
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 4.0,
+                        "y": 2.0999999046325684
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                }
+            }
+        }
+    ]
+}

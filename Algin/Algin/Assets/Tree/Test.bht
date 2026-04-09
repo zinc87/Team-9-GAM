@@ -1,0 +1,20 @@
+{
+    "Tree Template ID": "28710394-0ca6-4226-913b-25f10f0588de",
+    "Node List": [
+        {
+            "Node Type": 4,
+            "Node Depth": 0,
+            "Node Name": ""
+        },
+        {
+            "Node Type": 1,
+            "Node Depth": 1,
+            "Node Name": "Selector"
+        },
+        {
+            "Node Type": 3,
+            "Node Depth": 1,
+            "Node Name": "Leaf1"
+        }
+    ]
+}

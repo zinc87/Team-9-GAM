@@ -1,0 +1,157 @@
+{
+    "Object List": [
+        {
+            "Object Name": "GameObject 1",
+            "ID": "5af3228b-73c5-4ef8-aa3b-1538eddd498e",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 1.3224042654037476,
+                        "y": 0.016393423080444336,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 30.0,
+                    "Line Spacing": 1.5499999523162842,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 0.9200000166893005,
+                    "Wrap Text": true,
+                    "Centered": false,
+                    "RightAlign": true,
+                    "LeftAlign": false,
+                    "Text Content": "RIGHT",
+                    "ComponentType": 16
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 1 Copy",
+            "ID": "d4d09f3e-d338-406b-aef0-9e81e65a1f8b",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.04889098182320595,
+                        "y": 3.5486598014831543,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": 0.010929001495242119,
+                        "y": 0.5519125461578369,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 3444599998288276559,
+                    "Font Size": 30.0,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": true,
+                    "RightAlign": false,
+                    "LeftAlign": false,
+                    "Text Content": "CENTER",
+                    "ComponentType": 16
+                }
+            }
+        },
+        {
+            "Object Name": "GameObject 1 Copy Copy",
+            "ID": "ddd65977-4751-4606-b73c-362a43a56ae6",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": -1.1407768726348877,
+                        "y": 2.9076578617095947,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::RectTransformComponent": {
+                    "Position": {
+                        "x": -1.1857924461364746,
+                        "y": -0.0928962230682373,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "Rotation": 0.0,
+                    "ComponentType": 2
+                },
+                "AG::Component::TextMeshUIComponent": {
+                    "Font Color": {
+                        "r": 1.0,
+                        "g": 0.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "Font Hash": 2739915612112396926,
+                    "Font Size": 30.0,
+                    "Line Spacing": 1.0,
+                    "Word Spacing": 0.0,
+                    "Wrap Limit": 1.0,
+                    "Wrap Text": true,
+                    "Centered": false,
+                    "RightAlign": false,
+                    "LeftAlign": true,
+                    "Text Content": "LEFT",
+                    "ComponentType": 16
+                }
+            }
+        }
+    ]
+}

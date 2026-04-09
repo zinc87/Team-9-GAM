@@ -1,0 +1,101 @@
+{
+    "Objects": [
+        {
+            "ID": "caf7230f-3746-4166-9c89-738a041a57cd",
+            "Name": "Text UI",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "027fc11f-4ae0-4a6c-82c4-78ae3f05eac0",
+                    "Position": [-1.959, 3.991, 0],
+                    "Rotation": [0, 0, 0],
+                    "Scale": [1, 1, 1]
+                },
+                {
+                    "Type": 2,
+                    "ID": "e1818fbe-2a7f-4717-8a28-5c25021bb012",
+                    "Position": [-1.576, 0.797, 0],
+                    "Scale": [0.4, 0.4],
+                    "Rotation": 0.000000
+                },
+                {
+                    "Type": 13,
+                    "ID": "fd22407e-7fda-48fc-afa0-7a3c081edf28",
+                    "Image Hashed": 3883794604588158810,
+                    "TexCoord": [[0.050663, 0.952955], [0.957780, 0.952955], [0.957780, 0.041013], [0.050663, 0.041013]],
+                    "Color": [1.000000, 1.000000, 1.000000, 1.000000]
+                }
+    ]
+}
+,
+        {
+            "ID": "642e1475-3668-4672-b93c-9642b7a41f96",
+            "Name": "Video Player",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "807dc60d-bf89-45f6-b2fb-ddac2be46281",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 23,
+                    "ID": "1d971b8f-cffd-4fcf-a8d1-9545017c7f66",
+                    "Video Path": "Assets/Videos/EndingCutsceneWIP.mpg",
+                    "Play On Start": true,
+                    "Loop": false
+                },
+                {
+                    "Type": 14,
+                    "ID": "df763f71-8b0f-4a21-a625-2082cf69d396",
+                    "Script Name": "CutsceneController",
+                    "skipPromptUI": "<unsupported>",
+                    "fadeOverlay": "<unsupported>"
+                },
+                {
+                    "Type": 3,
+                    "ID": "4f4986ea-46e2-430c-82ea-49020161afaf",
+                    "Projection": 1,
+                    "Near Plane": 0.100000,
+                    "Far Plane": 50.000000,
+                    "FOV": 60.000000,
+                    "Vertical Size": 10.000000,
+                    "Game Camera": true
+                }
+    ]
+}
+,
+        {
+            "ID": "9ce4b4e7-9680-4ee6-86ed-054f3deb6c9e",
+            "Name": "Fade Overlay",
+            "Parent": "00000000-0000-0000-0000-000000000000",
+            "Components": [
+                {
+                    "Type": 1,
+                    "ID": "68b42eda-39fb-429b-8046-432fff6170a2",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Rotation": [0.000000, 0.000000, 0.000000],
+                    "Scale": [1.000000, 1.000000, 1.000000]
+                },
+                {
+                    "Type": 13,
+                    "ID": "cab71d6b-3d25-471f-a8c0-e4ec8a142845",
+                    "Image Hashed": 17498722206870229050,
+                    "TexCoord": [[0.000000, 1.000000], [1.000000, 1.000000], [1.000000, 0.000000], [0.000000, 0.000000]],
+                    "Color": [0.000000, 0.000000, 0.000000, 1.000000]
+                },
+                {
+                    "Type": 2,
+                    "ID": "f9b7c006-7085-40f6-9821-a632aab6d431",
+                    "Position": [0.000000, 0.000000, 0.000000],
+                    "Scale": [4.000000, 2.100000],
+                    "Rotation": 0.000000
+                }
+    ]
+}
+,
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "Object List": [
+        {
+            "Object Name": "Camera",
+            "ID": "3c30f205-b10e-4d1d-ad21-2e401be3688e",
+            "Parent ID": "00000000-0000-0000-0000-000000000000",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::CameraComponent": {
+                    "Projection": 1,
+                    "Near Plane": 0.10000000149011612,
+                    "Far Plane": 50.0,
+                    "FOV": 60.0,
+                    "Vertical Size": 10.0,
+                    "Game Camera": true,
+                    "ComponentType": 3
+                },
+                "AG::Component::AudioComponent": {
+                    "Audio Events": [],
+                    "ComponentType": 6
+                }
+            }
+        },
+        {
+            "Object Name": "HeldItemRoot",
+            "ID": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Parent ID": "3c30f205-b10e-4d1d-ad21-2e401be3688e",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 8.0,
+                        "y": -6.0,
+                        "z": -15.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 3.0,
+                        "y": 3.0,
+                        "z": 3.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::ScriptComponent": {
+                    "Script Name": "PlayerController",
+                    "moveSpeed": 0.0,
+                    "lookSpeed": 0.0,
+                    "scanner": "58e159fe-44ec-4b10-b01c-dcc7a9a21410",
+                    "syringe": "ba4afee0-a715-4b6e-b516-e63d2e0b504b",
+                    "ComponentType": 14
+                }
+            }
+        },
+        {
+            "Object Name": "ScannerModel",
+            "ID": "58e159fe-44ec-4b10-b01c-dcc7a9a21410",
+            "Parent ID": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.5,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.10000000149011612,
+                        "y": 0.10000000149011612,
+                        "z": 0.10000000149011612
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 11438915792154986094,
+                    "Mesh": "Scanner.agstaticmesh",
+                    "SubMesh Hashes": [
+                        189263890681137292,
+                        189264990192765503,
+                        189266089704393714
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        },
+        {
+            "Object Name": "SyringeModel",
+            "ID": "ba4afee0-a715-4b6e-b516-e63d2e0b504b",
+            "Parent ID": "e8baf82a-f6e1-476e-9b4b-75d1196e4470",
+            "Components": {
+                "AG::Component::TransformComponent": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "ComponentType": 1
+                },
+                "AG::Component::MeshRendererComponent": {
+                    "Mesh Hash": 1207627958303941992,
+                    "Mesh": "Vape.agstaticmesh",
+                    "SubMesh Hashes": [
+                        17892974359613518190,
+                        17892975459125146401,
+                        17892972160590261768
+                    ],
+                    "Material Hash List": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "Sub Meshes": [
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        },
+                        {
+                            "": {
+                                "x": 0.10000000149011612,
+                                "y": 0.10000000149011612,
+                                "z": 0.10000000149011612
+                            }
+                        }
+                    ],
+                    "Shininess": 32.0,
+                    "ComponentType": 7
+                }
+            }
+        }
+    ]
+}
